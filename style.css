@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo_fadein{
+	background: #FFF;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 999;
+}
+.first-logo {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+	z-index: 9999;
+}
+.first-image1_fadein {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+	z-index: 9999;
+}
+
+.first-image2_fadein {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+	z-index: 9999;
+}
+
+.first-logo {
+  height: 250px;
+}
+
+.first-image1 {
+  height: 100vh;
+}
+
+.first-image2 {
+  height: 100vh;
+}
+
+.main-visual {
+  width: 100%; /* 横幅いっぱい */
+  height: 650px; /* 高さ */
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0px;
+}
+
+.main-visual-content {
+  width: 50%; /* 横幅*/
+  height: 100%; /* 親の高さに揃え */
+  text-align: center;
+  padding-top: 70px;
+}
+
+.logo {
+  height: 60%;
+}
+
+.main-visual-heading {
+  font-size: 30px;
+  color:#000000;
+}
+.main-visual-text {
+  padding-top: 10px;
+  font-size: 20px;
+  color:#000000;  
+}
+
+/*------ スライダー横幅 ------*/
+.campaign-slider{
+    width:70%;
+    margin:0 auto;
+}
+
+/*------ スライダー画像 ------*/
+.campaign-slider img{
+    width:100%;
+}
+
+/*-------- 高さ調整 ----------*/
+.campaign-slider .slick-slide{
+    height:auto!important;
+}
+
+/*----------- 矢印 -----------*/
+.campaign-slider .slick-next{
+    right:0!important;
+}
+.campaign-slider .slick-prev{
+    left:0!important;
+}
+.campaign-slider .slick-arrow{
+    width: initial!important;
+    height: initial!important;
+    z-index:2!important;
+}
+.campaign-slider .slick-arrow:before{
+    font-size: 30px!important;
+}
+
+.contact {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #FFF;
+}
+#contact-heading {
+  padding-top: 90px;
+  font-size: 32px;
+  color: #000000;
+}
+#contact-heading::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 8px auto 0 auto;
+    background-color: #D3AEB7;
+}
+.contact-text {
+  padding: 30px 0px 30px 0px;
+  font-size: 16px;
+  color: #000000;
+}
+.contact-contents {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 90px;
+}
+.contact-nav {
+  display: flex;
+}
+
+.contact-nav-list {
+  line-height: 80px;
+  padding: 0 30px;
+  margin: 0 30px;
+  list-style: none;
+  font-size: 16px;
+  background-color: #D3AEB7;
+  border-radius: 50%;
+}
+
+.contact-nav-list a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
