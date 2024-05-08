@@ -18,36 +18,13 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
       <!-------------------------------------------------------------------------------------> 
       <!------------------- CSSファイルの読み込み -------------------------------------------->
-      <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="./css/style.css" />
       <!-------------------------------------------------------------------------------------> 
       <title>美容脱毛クリニックSARA</title>
   </head>
 <body>
-<div class="logo_fadein">
-  <p class="first-image1_fadein"><img class="first-image1" src="img/first-image1.jpg" alt="ロゴ"></p>
-  <p class="first-image2_fadein"><img class="first-image2" src="img/first-image2.jpg" alt="ロゴ"></p>
-  <p class="first-logo"><img class="first-logo" src="img/logo.jpg" alt="ロゴ"></p>
-</div>
-<div class="container">
-<header class="header">
-  <div class="header__inner">
-    <h1 class="header__title header-title">
-      <a href="#">ロゴ</a>
-    </h1>
-
-    <nav class="header__nav nav" id="js-nav">
-      <ul class="nav__items nav-items">
-        <li class="nav-items__item"><a href="">メニュー</a></li>
-        <li class="nav-items__item"><a href="">メニュー</a></li>
-        <li class="nav-items__item"><a href="">メニュー</a></li>
-        <li class="nav-items__item"><a href="">メニュー</a></li>
-      </ul>
-    </nav>
-
-    <button class="header__hamburger hamburger" id="js-hamburger">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
+  <div class="logo_fadein">
+    <p class="first-image1_fadein"><img class="first-image1" src="img/first-image1.jpg" alt="ロゴ"></p>
+    <p class="first-image2_fadein"><img class="first-image2" src="img/first-image2.jpg" alt="ロゴ"></p>
+    <p class="first-logo"><img class="first-logo" src="img/logo.jpg" alt="ロゴ"></p>
   </div>
-</header>

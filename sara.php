@@ -1,6 +1,15 @@
 <?php include('header.php'); ?>
 <main>
   <section class="main-visual">
+    <div class="openbtn1"><span></span><span></span><span></span></div>
+    <nav id="g-nav">
+      <ul>
+        <li><a href="#">Top</a></li>  
+        <li><a href="#">About</a></li>  
+        <li><a href="#">Service</a></li>  
+        <li><a href="#">Contact</a></li>  
+      </ul>
+    </nav>
     <div class="main-visual-content">
       <img class="logo" src="img/logo.jpg" alt="ロゴ">
       <h2 class=main-visual-heading>あなたも極上美肌へ</h2>
@@ -14,6 +23,52 @@
       <div><img src="./img/campaign-slider_img03.jpg"></div>
       <div><img src="./img/campaign-slider_img04.jpg"></div>
       <div><img src="./img/campaign-slider_img05.jpg"></div>
+    </div>
+  </section>
+  <section class="merit">
+    <div class="merit-slider">   
+       <div class="merit-contents">
+         <div class="merit-width">
+             <h4 class="merit-detail">MyName</h4>
+             <p class="merit-detail-text">
+               Contrary to popular belief, Lorem Ipsum is not simply random</br>
+               text. It has roots in a piece of classical Latin literature from 45</br>
+               BC, making it over 2000 years old. Richard McClintock, a Latin</br>
+               professor at Hampden-Sydney College in Virginia, looked up</br>
+               one of the more obscure Latin words, consectetur</p>
+         </div>
+         <div class="merit-width">
+          <img id="merit-image" src="img/merit-slider1.jpg" alt="">
+         </div>
+       </div>
+       <div class="merit-contents">
+         <div class="merit-width">
+             <h4 class="merit-detail">MyName</h4>
+             <p class="merit-detail-text">
+               Contrary to popular belief, Lorem Ipsum is not simply random</br>
+               text. It has roots in a piece of classical Latin literature from 45</br>
+               BC, making it over 2000 years old. Richard McClintock, a Latin</br>
+               professor at Hampden-Sydney College in Virginia, looked up</br>
+               one of the more obscure Latin words, consectetur</p>
+         </div> 
+         <div class="merit-width">
+          <img id="merit-image" src="img/merit-slider2.jpg" alt="">
+         </div>
+       </div>
+       <div class="merit-contents">
+         <div class="merit-width">
+             <h4 class="merit-detail">MyName</h4>
+             <p class="merit-detail-text">
+               Contrary to popular belief, Lorem Ipsum is not simply random</br>
+               text. It has roots in a piece of classical Latin literature from 45</br>
+               BC, making it over 2000 years old. Richard McClintock, a Latin</br>
+               professor at Hampden-Sydney College in Virginia, looked up</br>
+               one of the more obscure Latin words, consectetur</p>
+         </div> 
+         <div class="merit-width">
+          <img id="merit-image" src="img/merit-slider3.jpg" alt="">
+         </div>
+       </div>
     </div>
   </section>
   <section>
