@@ -1,3 +1,5 @@
+/* global $*/
+
 $(function() {
 	setTimeout(function(){
 		$('.first-image1_fadein').fadeIn(1000);
@@ -31,8 +33,8 @@ $("#g-nav a").click(function () {//ナビゲーションのリンクがクリッ
 
 $('.campaign-slider').slick({
     autoplay: true,       //自動再生
-    autoplaySpeed: 2000,  //自動再生のスピード
-    speed: 800,           //スライドするスピード
+    autoplaySpeed: 3500,  //自動再生のスピード
+    speed: 1500,           //スライドするスピード
     dots: true,           //スライド下のドット
     arrows: true,         //左右の矢印
     infinite: true,       //永久にループさせる
@@ -42,8 +44,30 @@ $('.merit-slider').slick({
     speed: 800,           //スライドするスピード
     arrows: true,         //左右の矢印
     infinite: true,       //永久にループさせる
+    prevArrow: '<img src="img/BACK.jpg" class="slide-arrow prev-arrow">',
+    nextArrow: '<img src="img/NEXT.jpg" class="slide-arrow next-arrow">',
 });
 
-    	$(function() {
-    		$('body *').removeAttr('style');
-    	});
+$('.info-slider').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 0,　//隣あう画像のスライドするまでの間隔時間
+    speed: 20000,
+    arrows: false,
+    pauseOnFocus: false,
+    pauseOnHover: false,
+    adaptiveHeight: true,
+    cssEase: 'linear'//開始から終了まで一定に変化する
+});
+
+
+$(function() {
+    $('body *').removeAttr('style');
+});
+
+$(function() {
+  $('#targetElement').css('filter', 'grayscale(100%)');
+  $('#targetElement').css('-webkit-filter', 'grayscale(100%)');
+});

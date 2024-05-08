@@ -28,7 +28,8 @@
   <section class="merit">
     <div class="merit-slider">   
        <div class="merit-contents">
-         <div class="merit-width">
+         <div class="merit-width1">
+             <h2 class="merit-title">Title</h2> 
              <h4 class="merit-detail">MyName</h4>
              <p class="merit-detail-text">
                Contrary to popular belief, Lorem Ipsum is not simply random</br>
@@ -37,12 +38,13 @@
                professor at Hampden-Sydney College in Virginia, looked up</br>
                one of the more obscure Latin words, consectetur</p>
          </div>
-         <div class="merit-width">
+         <div class="merit-width2">
           <img id="merit-image" src="img/merit-slider1.jpg" alt="">
          </div>
        </div>
        <div class="merit-contents">
-         <div class="merit-width">
+         <div class="merit-width1">
+             <h2 class="merit-title">Title</h2> 
              <h4 class="merit-detail">MyName</h4>
              <p class="merit-detail-text">
                Contrary to popular belief, Lorem Ipsum is not simply random</br>
@@ -51,12 +53,13 @@
                professor at Hampden-Sydney College in Virginia, looked up</br>
                one of the more obscure Latin words, consectetur</p>
          </div> 
-         <div class="merit-width">
+         <div class="merit-width2">
           <img id="merit-image" src="img/merit-slider2.jpg" alt="">
          </div>
        </div>
        <div class="merit-contents">
-         <div class="merit-width">
+         <div class="merit-width1">
+             <h2 class="merit-title">Title</h2>             
              <h4 class="merit-detail">MyName</h4>
              <p class="merit-detail-text">
                Contrary to popular belief, Lorem Ipsum is not simply random</br>
@@ -65,18 +68,34 @@
                professor at Hampden-Sydney College in Virginia, looked up</br>
                one of the more obscure Latin words, consectetur</p>
          </div> 
-         <div class="merit-width">
+         <div class="merit-width2">
           <img id="merit-image" src="img/merit-slider3.jpg" alt="">
          </div>
        </div>
     </div>
   </section>
+  <section class="info">
+    <div class="info-contents">
+     <div class="info-width1">
+      <div class="info-slider">   
+        <div><img src="img/info-slider_img01.jpg"></div>
+        <div><img src="img/info-slider_img02.jpg"></div>   
+        <div><img src="img/info-slider_img03.jpg"></div>
+        <div><img src="img/info-slider_img04.jpg"></div>
+      </div>
+     </div> 
+     <div class="info-width2">
+       <h2 class="info-title">INFO</h2> 
+       <h4 class="info-detail">MyName</h4>
+     </div> 
+    </div>    
+  </section>
   <section>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6566.591767879042!2d135.76176937
+    <iframe id="targetElement" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6566.591767879042!2d135.76176937
     622324!3d34.62196238743276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600130092c93f513%3A0
     x353b7e1addae5a17!2z44CSNjM5LTEwNDQg5aWI6Imv55yM5aSn5ZKM6YOh5bGx5biC5bCP5rOJ55S65p2x77yR5LiB55uu77y
     Y4oiS77yWIDJm!5e0!3m2!1sja!2sjp!4v1714904296665!5m2!1sja!2sjp" 
-    width="100%" height="400" style="filter:grayscale(100%);-webkit-filter:grayscale(100%)" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    width="100%" height="400" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
     </iframe>
   </section>
   <section class="contact">
