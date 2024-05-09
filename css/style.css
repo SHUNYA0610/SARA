@@ -242,11 +242,11 @@
 }
 
 .merit-slider .prev-arrow {
-  left: 30%;
+  left: 30.8%;
 }
 
 .merit-slider .next-arrow {
-  left: 35%;
+  left: 35.4%;
 }
 
 .merit-contents {
@@ -288,6 +288,122 @@
   color: #000000;  
   font-size: 15px;
   margin-left: 10px;
+}
+
+.menus {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #FFF;
+}
+#menu-heading {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 32px;
+  color: #000000;
+}
+#menu-heading::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 8px auto 0 auto;
+    background-color: #EC715F;
+}
+.menu-contents {
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.Menu {
+  width: 350px;
+  overflow:hidden;
+  box-shadow: 5px 5px 5px 5px  rgba(0, 0, 0, 0.35);
+}
+.Menu:nth-child(2) {
+  margin: 0px 35px; 
+}
+.menu-heading {
+  font-size: 20px;
+  color: #000000;  
+  margin: 10px 0px;
+}
+.menu-text {
+  text-align: left;
+  color: #000000;  
+  font-size: 16px;
+  margin: 0 10px
+}
+
+#menu-image {
+  width: 350px;
+  height: 250px;
+}
+
+.price {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #FFF;
+}
+#price-heading {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 32px;
+  color: #000000;
+}
+#price-heading::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 8px auto 0 auto;
+    background-color: #EC715F;
+}
+.price-table{
+  overflow:hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table{
+  font-family: 'Oswald', sans-serif;
+  border-collapse:collapse;
+}
+
+th{
+  background-color: #D3AEB7;
+  color:#ffffff;
+  width:25vw;
+  height:75px;
+}
+
+td{
+  background-color:#ffffff;
+  width:25vw;
+  height:50px;
+  text-align:center;
+}
+
+tr{
+  border-bottom: 1px solid #dddddd;
+}
+
+tr:last-of-type{
+  border-bottom: 1px solid #000000;
+}
+
+tr:nth-of-type(even) td{
+  background-color: #D3AEB7;
 }
 
 .info{

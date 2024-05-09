@@ -64,7 +64,7 @@ $('.info-slider').slick({
 
 
 $(function() {
-    $('body *').removeAttr('style');
+  $('body .merit *').removeAttr('style');
 });
 
 $(function() {
