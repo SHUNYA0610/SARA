@@ -566,10 +566,16 @@ tr:nth-of-type(even) td{
 .column{
  column-count: 2;
 }
-
-li { 
+.footer-menu-width1 ul {
+	list-style: none;
+}
+.footer-menu-width1 ul li { 
   list-style-position:inside;
+  padding-left: 20px;
+	line-height: 1.6em;
   margin-bottom: 20px;
+  background: url(../img/li.png) left 0px top 3px no-repeat;
+	background-size: 15px auto;
 }
 
 .footer-menu-contents {
