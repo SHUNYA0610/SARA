@@ -62,6 +62,12 @@ $('.info-slider').slick({
     cssEase: 'linear'//開始から終了まで一定に変化する
 });
 
+$('.page-top-link').click(function () {
+    $('body,html').animate({
+        scrollTop: 0//ページトップまでスクロール
+    }, 500);//ページトップスクロールの速さ。数字が大きいほど遅くなる
+    return false;//リンク自体の無効化
+});
 
 $(function() {
   $('body .merit *').removeAttr('style');

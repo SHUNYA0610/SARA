@@ -180,6 +180,26 @@
   color:#000000;  
 }
 
+.campaign {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #FFF;
+}
+.campaign-title {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 32px;
+  color: #000000;
+}
+.campaign-title::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 8px auto 0 auto;
+    background-color: #EC715F;
+}
 /*------ スライダー横幅 ------*/
 .campaign-slider{
   width:70%;
@@ -221,6 +241,7 @@
 }
 /*------ スライダー横幅 ------*/
 .merit-slider{
+  box-shadow: 0 0 10px  rgba(0, 0, 0, 0.35);
   width:1200px;
   height: 100%;
   margin:0 auto;
@@ -322,7 +343,7 @@
 .Menu {
   width: 350px;
   overflow:hidden;
-  box-shadow: 5px 5px 5px 5px  rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0 10px  rgba(0, 0, 0, 0.35);
 }
 .Menu:nth-child(2) {
   margin: 0px 35px; 
@@ -341,7 +362,8 @@
 
 #menu-image {
   width: 350px;
-  height: 250px;
+  height: 200px;
+  object-fit: cover;
 }
 
 .price {
@@ -351,6 +373,9 @@
   justify-content: center;
   margin: 0 auto;
   background-color: #FFF;
+}
+.price-content {
+  width: 70%;
 }
 #price-heading {
   padding-top: 30px;
@@ -427,6 +452,7 @@ tr:nth-of-type(even) td{
   height: 550px;
 }
 .info-contents {
+  box-shadow: 0 0 10px  rgba(0, 0, 0, 0.35);
   width: 1200px;
   height: 100%;  
   margin: 0 auto;
@@ -513,4 +539,57 @@ tr:nth-of-type(even) td{
   display: block;
   height: 100%;
   width: 100%;
+}
+
+/*div要素全体にリンクをつけるために必要な要素*/
+.page-top-link {
+    position: relative;
+    text-align: center;
+}
+.page-top-link a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+}
+
+/* 以下見た目をわかりやすくするための設定*/
+.page-top-link {
+    background-color: #D3AEB7;
+}
+.page-top-link a:hover{/* マウスオーバー時に色変更*/
+    opacity: 0.1;
+    background-color: #000000;
+}
+
+.column{
+ column-count: 2;
+}
+
+li { 
+  list-style-position:inside;
+  margin-bottom: 20px;
+}
+
+.footer-menu-contents {
+  width: 1200px;
+  height: 400px;  
+  margin: 0 auto;
+  display: flex;
+  text-align: left;
+}
+
+.footer-menu-width1 {
+  width: 50%;
+  height: 400px;
+}
+.footer-menu-width2 {
+  width: 50%;
+  height: 400px;
+}
+#footer-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
 }
