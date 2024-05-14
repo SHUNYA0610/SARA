@@ -16,6 +16,22 @@
       <p class="main-visual-text">奈良でNO.1を誇る美容脱毛クリニック</p>
     <div>
   </section>
+  <section class="concept">
+    <div class="concept-image-contents">
+      <div><img src="./img/main-img1.jpg"></div>
+      <div><img src="./img/main-img2.jpg"></div>   
+      <div><img src="./img/main-img3.jpg"></div>
+    </div>
+    <div class="concept-detail">
+      <h2 class="concept-title">Concept</h2>
+      <p class="concept-text">
+      Contrary to popular belief, Lorem Ipsum is not simply random</br>
+      text. It has roots in a piece of classical Latin literature from 45</br>
+      BC, making it over 2000 years old. Richard McClintock, a Latin</br>
+      professor at Hampden-Sydney College in Virginia, looked up</br>
+      one of the more obscure Latin words, consectetur</p>
+    </div>
+  </section>
   <section class="campaign">
     <div>
     <h2 class="campaign-title">Campain</h2>
@@ -82,7 +98,8 @@
       <h2 id="menu-heading">Menu</h2>
       <div class="menu-contents">
         <div class="Menu">
-          <img id="menu-image" src="img/merit-slider3.jpg" alt="">        
+          <a href="woman.php"></a>
+          <img id="menu-image" src="img/menu-img1.jpg" alt="">        
           <h3 class="menu-heading">レディース脱毛</h3>
           <p class="menu-text">Contrary to popular belief, Lorem Ipsum is not simply random text. 
           It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
@@ -90,7 +107,8 @@
           </p>
         </div>
         <div class="Menu">
-          <img id="menu-image" src="img/merit-slider3.jpg" alt="">  
+          <a href="mens.php"></a>
+          <img id="menu-image" src="img/menu-img2.jpg" alt="">  
           <h3 class="menu-heading">メンズ脱毛</h3>
           <p class="menu-text">Contrary to popular belief, Lorem Ipsum is not simply random text.
           It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
@@ -98,12 +116,17 @@
           </p>
         </div>
         <div class="Menu">
-          <img id="menu-image" src="img/merit-slider3.jpg" alt="">  
+          <a href="KidsandJunior.php"></a>
+          <img id="menu-image" src="img/menu-img3.jpg" alt="">  
           <h3 class="menu-heading">キッズ&ジュニア脱毛</h3>
           <p class="menu-text">Contrary to popular belief, Lorem Ipsum is not simply random text.
           It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
           old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up
           </p>
+        </div>
+        <div class="beginner">
+          <a href="beginner.php"></a>          
+          <h3 class="menu-heading2">初めてご利用の方へ</h3>
         </div>
       </div>
     </div>  
