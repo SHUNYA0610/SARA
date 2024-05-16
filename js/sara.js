@@ -2,23 +2,23 @@
 
 $(function() {
 	setTimeout(function(){
-		$('.first-image1_fadein').fadeIn(1000);
+		$('.first-image1_fadein').fadeIn(1500);
 	},500);
 	setTimeout(function(){
-		$('.first-image1_fadein').fadeOut(1000);
+		$('.first-image1_fadein').fadeOut(1300);
 	},2500);
 	setTimeout(function(){
-		$('.first-image2_fadein').fadeIn(1000);
+		$('.first-image2_fadein').fadeIn(1500);
 	},3000);
 	setTimeout(function(){
-		$('.first-image2_fadein').fadeOut(1000);
+		$('.first-image2_fadein').fadeOut(1300);
 	},5000);
 	setTimeout(function(){
-		$('.first-logo').fadeIn(1500);
+		$('.first-logo').fadeIn(2000);
 	},5500);
 	setTimeout(function(){
-		$('.logo_fadein').fadeOut(1000);
-	},8500);
+		$('.logo_fadein').fadeOut(1500);
+	},9000);
 });
 
 $(".openbtn1").click(function () {//ボタンがクリックされたら
@@ -77,3 +77,20 @@ $(function() {
   $('#targetElement').css('filter', 'grayscale(100%)');
   $('#targetElement').css('-webkit-filter', 'grayscale(100%)');
 });
+
+const swiper_thumbnail = new Swiper(".swiper_thumbnail", {
+    slidesPerView: 3,
+})
+const swiper = new Swiper('.swiper_main', {
+    loop: true,                         
+    autoplay: {                         
+        delay: 2000,  
+    },                   
+    navigation: {                       
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    thumbs: {
+      swiper: swiper_thumbnail,
+    },
+})

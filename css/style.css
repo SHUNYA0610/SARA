@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+body {
+    font-family: 游ゴシック体, YuGothic, 'Yu Gothic', "游ゴシック Medium",
+    "Yu Gothic Medium", 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+a,a:hover,a:visited{
+    color: inherit;
+}
+
 .logo_fadein{
 	background: #FFF;
 	position: fixed;
@@ -162,41 +171,32 @@
 .main-visual-content {
   width: 50%; /* 横幅*/
   height: 100%; /* 親の高さに揃え */
-  text-align: center;
 }
 
 .logo {
-  margin-top: 25px; 
+  margin: 85px 0 0 50px; 
   height: 60%;
-}
-
-.main-visual-heading {
-  font-size: 30px;
-  color:#000000;
-}
-.main-visual-text {
-  padding-top: 10px;
-  font-size: 20px;
-  color:#000000;  
 }
 
 .concept {
   width: 100%;
-  height: 300px;
+  height: 400px;
+  background-color: #F3CEFE;
 }
 .concept-image-contents {
-  padding-top: 10px;
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 20px;
   display: flex;
   justify-content: center;
 }
 .concept-image-contents img{
-  width: 250px;
+  width: 300px;
   height: 150px;
-  margin: 0 20px;
   object-fit: cover;
 }
 .concept-detail{
-  width: 500px;
+  width: 600px;
   margin: 0 auto;
   text-align: center;
 }
@@ -204,7 +204,7 @@
 .campaign {
   width: 100%;
   text-align: center;
-  background-color: #FFF;
+  background-color: #fff;
 }
 .campaign-title {
   padding-top: 30px;
@@ -218,7 +218,7 @@
     width: 70px;
     height: 3px;
     margin: 8px auto 0 auto;
-    background-color: #EC715F;
+    background-color: #D085FD;
 }
 /*------ スライダー横幅 ------*/
 .campaign-slider{
@@ -252,11 +252,10 @@
   font-size: 30px!important;
 }
 
-
 .merit{
   width:100%;
   height: 630px;
-  background-color: #D3AEB7;
+  background-color: #F3CEFE;
   padding:40px 0px;
 }
 /*------ スライダー横幅 ------*/
@@ -265,7 +264,7 @@
   width:1200px;
   height: 100%;
   margin:0 auto;
-  background-color: #FFF;
+  background-color: #fff;
 }
 /*-------- 高さ調整 ----------*/
 .merit-slider .slick-slide{
@@ -298,6 +297,7 @@
 .merit-width1 {
   width: 40%;
   height: 100%;
+  margin: 20px;
 }
 .merit-width2 {
   width: 60%;
@@ -320,7 +320,7 @@
 }
 .merit-detail {
   text-align: left;
-  font-size: 24px;
+  font-size: 28px;
   color: #000000;  
   margin: 10px 0px 5px 10px;
 }
@@ -337,7 +337,7 @@
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  background-color: #FFF;
+  background-color: #fff;
 }
 #menu-heading {
   padding-top: 30px;
@@ -351,7 +351,7 @@
     width: 70px;
     height: 3px;
     margin: 8px auto 0 auto;
-    background-color: #EC715F;
+    background-color: #D085FD;
 }
 .menu-contents {
   width: 1200px;
@@ -365,6 +365,8 @@
   width: 350px;
   overflow:hidden;
   box-shadow: 0 0 10px  rgba(0, 0, 0, 0.35);
+  background-color: #fff;
+  border-radius: 10px;
 }
 .Menu:nth-child(2) {
   margin: 0px 35px; 
@@ -384,12 +386,15 @@
   position: relative;  
   margin-top: 50px;
   width: 90%;
-  height: 70px;
-  background-color: #EC715F;
+  height: 120px;
+  background-image: url(../img/beginner-back.jpg);
+  background-size: cover;
+  background-position: center;
   display: flex;
   align-items: center;
   overflow:hidden;
   box-shadow: 0 0 10px  rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
 }
 .beginner a {
   position: absolute;
@@ -403,7 +408,7 @@
     background-color: #000000;
 }
 .menu-heading {
-  font-size: 20px;
+  font-size: 25px;
   color: #000000;  
   margin: 10px 0px;
 }
@@ -411,10 +416,10 @@
   text-align: left;
   color: #000000;  
   font-size: 16px;
-  margin: 0 10px
+  margin: 20px;
 }
 .menu-heading2 {
-  font-size: 20px;
+  font-size: 35px;
   color: #000000;  
   margin: 0 auto;
 }
@@ -427,18 +432,18 @@
 
 .price {
   width: 100%;
+  height: 970px;
   text-align: center;
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  background-color: #FFF;
+  background-color: #F3CEFE;
 }
 .price-content {
-  width: 70%;
+  width: 80%;
 }
 #price-heading {
   padding-top: 30px;
-  padding-bottom: 30px;
   font-size: 32px;
   color: #000000;
 }
@@ -448,7 +453,7 @@
     width: 70px;
     height: 3px;
     margin: 8px auto 0 auto;
-    background-color: #EC715F;
+    background-color: #D085FD;
 }
 .price-table{
   overflow:hidden;
@@ -465,15 +470,15 @@ table{
 }
 
 th{
-  background-color: #D3AEB7;
+  background-color: #D085FD;
   color:#ffffff;
-  width:25vw;
-  height:75px;
+  width:30vw;
+  height:60px;
 }
 
 td{
   background-color:#ffffff;
-  width:25vw;
+  width:20vw;
   height:50px;
   text-align:center;
 }
@@ -487,7 +492,7 @@ tr:last-of-type{
 }
 
 tr:nth-of-type(even) td{
-  background-color: #D3AEB7;
+  background-color: #D085FD;
 }
 
 .info{
@@ -556,7 +561,7 @@ tr:nth-of-type(even) td{
   background-color: #FFF;
 }
 #contact-heading {
-  padding-top: 90px;
+  padding-top: 30px;
   font-size: 32px;
   color: #000000;
 }
@@ -566,7 +571,7 @@ tr:nth-of-type(even) td{
   width: 70px;
   height: 3px;
   margin: 8px auto 0 auto;
-  background-color: #D3AEB7;
+  background-color: #D085FD;
 }
 .contact-text {
   padding: 30px 0px 30px 0px;
@@ -578,7 +583,7 @@ tr:nth-of-type(even) td{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding-bottom: 90px;
+  padding-bottom: 20px;
 }
 .contact-nav {
   display: flex;
@@ -590,14 +595,16 @@ tr:nth-of-type(even) td{
   margin: 0 30px;
   list-style: none;
   font-size: 16px;
-  background-color: #D3AEB7;
-  border-radius: 50%;
+  background-color: #D085FD;
+  border-radius: 100vh;
 }
 
 .contact-nav-list a{
   display: block;
   height: 100%;
   width: 100%;
+  color: #fff;
+  font-size: 20px;
 }
 
 /*div要素全体にリンクをつけるために必要な要素*/
@@ -613,20 +620,31 @@ tr:nth-of-type(even) td{
     width: 100%;
 }
 
+.page-top {
+  width: 100%;
+  height: 90px;
+}
 /* 以下見た目をわかりやすくするための設定*/
 .page-top-link {
-    background-color: #D3AEB7;
+  background-color: #F3CEFE;
 }
 .page-top-link a:hover{/* マウスオーバー時に色変更*/
-    opacity: 0.1;
-    background-color: #000000;
+  opacity: 0.1;
+  background-color: #000000;
 }
 
 .column{
  column-count: 2;
 }
+
+footer {
+  width: 100%;
+  height: 600px;
+  background-color: #D085FD;
+}
 .footer-menu-width1 ul {
 	list-style: none;
+	padding: 20px;
 }
 .footer-menu-width1 ul li { 
   list-style-position:inside;
@@ -639,7 +657,7 @@ tr:nth-of-type(even) td{
 
 .footer-menu-contents {
   width: 1200px;
-  height: 400px;  
+  height: 100%;  
   margin: 0 auto;
   display: flex;
   text-align: left;
@@ -655,6 +673,6 @@ tr:nth-of-type(even) td{
 }
 #footer-image {
   width: 100%;
-  height: 400px;
+  height: 600px;
   object-fit: cover;
 }

@@ -12,8 +12,6 @@
     </nav>
     <div class="main-visual-content">
       <img class="logo" src="img/logo.jpg" alt="ロゴ">
-      <h2 class=main-visual-heading>あなたも極上美肌へ</h2>
-      <p class="main-visual-text">奈良でNO.1を誇る美容脱毛クリニック</p>
     <div>
   </section>
   <section class="concept">
@@ -23,13 +21,14 @@
       <div><img src="./img/main-img3.jpg"></div>
     </div>
     <div class="concept-detail">
-      <h2 class="concept-title">Concept</h2>
+      <h2 class="concept-title">SARA's CONCEPT</h2>
+      <h3 class="concept-sabtitle">SARAに通い始めると自信が満たされ、どんどん前向きになれる</h3>
       <p class="concept-text">
-      Contrary to popular belief, Lorem Ipsum is not simply random</br>
-      text. It has roots in a piece of classical Latin literature from 45</br>
-      BC, making it over 2000 years old. Richard McClintock, a Latin</br>
-      professor at Hampden-Sydney College in Virginia, looked up</br>
-      one of the more obscure Latin words, consectetur</p>
+      こだわり抜いた技術力で老若男女それぞれのお悩み解決に合わせて、<br>
+      完全オーダーメイド施術を行います。最先端の脱毛機器を導入し、<br>
+      極限まで痛みを抑えながら、脱毛効果の実感が速いのがSARAの特徴<br>
+      ただ脱毛をするだけではなく、通えば通うほどお肌が綺麗になっていく<br>
+      【美肌脱毛】というオリジナル技術で極上美肌へと導きます</p>
     </div>
   </section>
   <section class="campaign">
@@ -48,8 +47,8 @@
     <div class="merit-slider">   
        <div class="merit-contents">
          <div class="merit-width1">
-             <h2 class="merit-title">Title</h2> 
-             <h4 class="merit-detail">MyName</h4>
+             <h2 class="merit-title">SARAの８つのこだわり</h2> 
+             <h3 class="merit-detail">最先端の脱毛機器</h3>
              <p class="merit-detail-text">
                Contrary to popular belief, Lorem Ipsum is not simply random</br>
                text. It has roots in a piece of classical Latin literature from 45</br>
@@ -63,8 +62,23 @@
        </div>
        <div class="merit-contents">
          <div class="merit-width1">
-             <h2 class="merit-title">Title</h2> 
-             <h4 class="merit-detail">MyName</h4>
+             <h2 class="merit-title">SARAの８つのこだわり</h2> 
+             <h3 class="merit-detail">美肌へ導くジェル</h3>
+             <p class="merit-detail-text">
+               Contrary to popular belief, Lorem Ipsum is not simply random</br>
+               text. It has roots in a piece of classical Latin literature from 45</br>
+               BC, making it over 2000 years old. Richard McClintock, a Latin</br>
+               professor at Hampden-Sydney College in Virginia, looked up</br>
+               one of the more obscure Latin words, consectetur</p>
+         </div>
+         <div class="merit-width2">
+          <img id="merit-image" src="img/merit-slider2.jpg" alt="">
+         </div>
+       </div>       
+       <div class="merit-contents">
+         <div class="merit-width1">
+             <h2 class="merit-title">SARAの８つのこだわり</h2> 
+             <h3 class="merit-detail">安心安全のカウンセリング&アフターフォロー</h3>
              <p class="merit-detail-text">
                Contrary to popular belief, Lorem Ipsum is not simply random</br>
                text. It has roots in a piece of classical Latin literature from 45</br>
@@ -78,8 +92,8 @@
        </div>
        <div class="merit-contents">
          <div class="merit-width1">
-             <h2 class="merit-title">Title</h2>             
-             <h4 class="merit-detail">MyName</h4>
+             <h2 class="merit-title">SARAの８つのこだわり</h2>             
+             <h3 class="merit-detail">豊富なお支払い方法</h3>
              <p class="merit-detail-text">
                Contrary to popular belief, Lorem Ipsum is not simply random</br>
                text. It has roots in a piece of classical Latin literature from 45</br>
@@ -91,6 +105,66 @@
           <img id="merit-image" src="img/merit-slider3.jpg" alt="">
          </div>
        </div>
+       <div class="merit-contents">
+         <div class="merit-width1">
+             <h2 class="merit-title">SARAの８つのこだわり</h2>             
+             <h3 class="merit-detail">立地が良い(JR小泉駅前徒歩30秒)・駐車場完備</h3>
+             <p class="merit-detail-text">
+               Contrary to popular belief, Lorem Ipsum is not simply random</br>
+               text. It has roots in a piece of classical Latin literature from 45</br>
+               BC, making it over 2000 years old. Richard McClintock, a Latin</br>
+               professor at Hampden-Sydney College in Virginia, looked up</br>
+               one of the more obscure Latin words, consectetur</p>
+         </div> 
+         <div class="merit-width2">
+          <img id="merit-image" src="img/merit-slider3.jpg" alt="">
+         </div>
+       </div>   
+       <div class="merit-contents">
+         <div class="merit-width1">
+             <h2 class="merit-title">SARAの８つのこだわり</h2>             
+             <h3 class="merit-detail">美容室と同じフロア</h3>
+             <p class="merit-detail-text">
+               Contrary to popular belief, Lorem Ipsum is not simply random</br>
+               text. It has roots in a piece of classical Latin literature from 45</br>
+               BC, making it over 2000 years old. Richard McClintock, a Latin</br>
+               professor at Hampden-Sydney College in Virginia, looked up</br>
+               one of the more obscure Latin words, consectetur</p>
+         </div> 
+         <div class="merit-width2">
+          <img id="merit-image" src="img/merit-slider3.jpg" alt="">
+         </div>
+       </div>
+       <div class="merit-contents">
+         <div class="merit-width1">
+             <h2 class="merit-title">SARAの８つのこだわり</h2>             
+             <h3 class="merit-detail">完全個室</h3>
+             <p class="merit-detail-text">
+               Contrary to popular belief, Lorem Ipsum is not simply random</br>
+               text. It has roots in a piece of classical Latin literature from 45</br>
+               BC, making it over 2000 years old. Richard McClintock, a Latin</br>
+               professor at Hampden-Sydney College in Virginia, looked up</br>
+               one of the more obscure Latin words, consectetur</p>
+         </div> 
+         <div class="merit-width2">
+          <img id="merit-image" src="img/merit-slider3.jpg" alt="">
+         </div>
+       </div>
+       <div class="merit-contents">
+         <div class="merit-width1">
+             <h2 class="merit-title">SARAの８つのこだわり</h2>             
+             <h3 class="merit-detail">広いキッズスペース管理</h3>
+             <p class="merit-detail-text">
+               Contrary to popular belief, Lorem Ipsum is not simply random</br>
+               text. It has roots in a piece of classical Latin literature from 45</br>
+               BC, making it over 2000 years old. Richard McClintock, a Latin</br>
+               professor at Hampden-Sydney College in Virginia, looked up</br>
+               one of the more obscure Latin words, consectetur</p>
+         </div> 
+         <div class="merit-width2">
+          <img id="merit-image" src="img/merit-slider8.jpg" alt="">
+         </div>
+       </div>       
     </div>
   </section>
   <section class="menus">
@@ -176,7 +250,7 @@
             <td>￥12,483円</td>            
           </tr>
           <tr>
-            <td class="price-table-sticky"全身脱毛</td>
+            <td class="price-table-sticky">全身脱毛</td>
             <td class="price-table-sticky">70分</td>
             <td>￥6,490円</td>
             <td>￥12,980円</td>
@@ -186,7 +260,7 @@
             <td>￥10,817円</td>            
           </tr>
           <tr>
-            <td class="price-table-sticky">お顔全体（女性限定）</td>
+            <td class="price-table-sticky">お顔全体<br>（女性限定）</td>
             <td class="price-table-sticky">30分</td>
             <td>￥3,490円</td>
             <td>￥6,980円</td>
@@ -196,7 +270,7 @@
             <td>￥5,400円</td>            
           </tr>
           <tr>
-            <td class="price-table-sticky">ひげ（男性限定）</td>
+            <td class="price-table-sticky">ひげ<br>（男性限定）</td>
             <td class="price-table-sticky">40分</td>
             <td>￥4,490円</td>
             <td>￥8,980円</td>
@@ -206,7 +280,7 @@
             <td>￥7,067円</td>            
           </tr>
           <tr>
-            <td class="price-table-sticky">VIO（女性限定）</td>
+            <td class="price-table-sticky">VIO<br>（女性限定）</td>
             <td class="price-table-sticky">40分</td>
             <td>￥3,990円</td>
             <td>￥7,980円</td>
@@ -216,7 +290,7 @@
             <td>￥6,233円</td>            
           </tr>
           <tr>
-            <td class="price-table-sticky">上半身（両腕・胸周り・お腹・背中）</td>
+            <td class="price-table-sticky">上半身<br>（両腕・胸周り・お腹・背中）</td>
             <td class="price-table-sticky">40分</td>
             <td>￥3,990円</td>
             <td>￥7,980円</td>
@@ -236,7 +310,7 @@
             <td>￥4,567円</td>            
           </tr>
           <tr>
-            <td class="price-table-sticky">下半身（両脚・ヒップ・VIO）</td>
+            <td class="price-table-sticky">下半身<br>（両脚・ヒップ・VIO）</td>
             <td class="price-table-sticky">50分</td>
             <td>￥4,490円</td>
             <td>￥8,980円</td>
@@ -246,7 +320,7 @@
             <td>￥7,067円</td>            
           </tr>
           <tr>
-            <td class="price-table-sticky">両腕（ひじ・手の指・甲）</td>
+            <td class="price-table-sticky">両腕<br>（ひじ・手の指・甲）</td>
             <td class="price-table-sticky">20分</td>
             <td>￥2,490円</td>
             <td>￥4,980円</td>
@@ -256,7 +330,7 @@
             <td>￥3,733円</td>            
           </tr>
           <tr>
-            <td class="price-table-sticky">両脚（ひざ・足指・甲）</td>
+            <td class="price-table-sticky">両脚<br>（ひざ・足指・甲）</td>
             <td class="price-table-sticky">30分</td>
             <td>￥2,740円</td>
             <td>￥5,480円</td>
@@ -294,25 +368,12 @@
     </div>    
   </section>
   <section>
-    <iframe id="targetElement" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6566.591767879042!2d135.76176937
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6566.591767879042!2d135.76176937
     622324!3d34.62196238743276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600130092c93f513%3A0
     x353b7e1addae5a17!2z44CSNjM5LTEwNDQg5aWI6Imv55yM5aSn5ZKM6YOh5bGx5biC5bCP5rOJ55S65p2x77yR5LiB55uu77y
     Y4oiS77yWIDJm!5e0!3m2!1sja!2sjp!4v1714904296665!5m2!1sja!2sjp" 
-    width="100%" height="400" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    width="100%" height="400" style="filter:grayscale(100%);-webkit-filter:grayscale(100%)" 
+    loading="lazy" referrerpolicy="no-referrer-when-downgrade">
     </iframe>
   </section>
-  <section class="contact">
-    <div class="contact-content">
-      <h2 id="contact-heading">Contact</h2>
-      <p class="contact-text">ご予約・お問い合わせは、下記より受付ております。お気軽にご連絡くださいませ。</p>
-      <div class="contact-contents">
-          <ul class="contact-nav">
-            <li class="contact-nav-list"><a href="https://amrta-roppongi.com/"target="_blank"style="text-decoration:none;">Hotpepar Beauty</a></li>
-            <li class="contact-nav-list"><a href="https://amrta-roppongi.com/"target="_blank"style="text-decoration:none;"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
-          </ul>
-       </div> 
-      </div>
-    </div>   
-  </section>
-</main>
 <?php include('footer.php'); ?>
