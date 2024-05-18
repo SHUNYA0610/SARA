@@ -94,3 +94,10 @@ const swiper = new Swiper('.swiper_main', {
       swiper: swiper_thumbnail,
     },
 })
+
+$(function(){
+    $('.qa_q').click(function(){
+        $(this).next().slideToggle();
+        $(this).toggleClass("open");
+  });
+});

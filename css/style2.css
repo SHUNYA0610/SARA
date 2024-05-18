@@ -412,5 +412,129 @@ td {
   outline-offset: -2px;
 }
 .swiper_thumbnail img {
-  vertical-align:　bottom;
+  vertical-align: bottom;
+}
+
+.qanda {
+  width: 100%; /* 横幅*/
+  height: 100%; /* 親の高さに揃え */
+  text-align: center;
+  margin-top: 20px;
+}
+
+.qanda-heading {
+  font-size: 32px;
+  color:#000000;
+}
+.area01{
+  background-color: #fff;
+}
+
+.inner {
+  width:750px;
+  margin: 20px auto;
+}
+
+.qa_box{
+  margin-bottom: 20px;
+}
+
+.qa_box .qa_q {
+  background-color: #D085FD;
+  border: 1px solid #D085FD;
+  padding: 20px 25px;
+  position: relative;
+  cursor: pointer;
+  color: #fff;
+}
+
+.toggle_icon {
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  width: 20px;
+  height: 20px;
+  margin-top: -15px;
+}
+.toggle_icon:before{
+  position: absolute;
+  content: "▼";
+  margin: auto;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.qa_q.open .toggle_icon:before{
+  position: absolute;
+  content: "ー";
+  margin: auto;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.qa_box .qa_a {
+  display: none;
+  padding: 25px 30px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.q_txt{
+  display: block;
+  padding-left: 35px;
+  position: relative;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+.q_txt::before {
+  position: absolute;
+  left: 0;
+  content: "Q．";
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.a_txt {
+  display: block;
+  padding-left: 35px;
+  position: relative;
+  line-height: 1.5;
+}
+
+.a_txt::before {
+  position: absolute;
+  left: 0;
+  content: "A．";
+  color: #D085FD;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 750px) { 
+    .inner{
+        width: auto;
+    }
+    
+    .toggle_icon {
+        right: 0.8rem;
+    }
+    
+    .toggle_icon:before {
+        width: 15px;
+    }
+    .toggle_icon:after {
+        height: 15px;
+        right: 7px;
+    }
+}
+
+@media screen and (max-width: 480px) { 
+    .toggle_icon {
+        right: 0.4rem;
+    }
 }

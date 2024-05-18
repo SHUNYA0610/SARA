@@ -11,7 +11,7 @@
     </ul>
   </nav>
     <div class="sab-visual-content">
-      <h2 class="sab-visual-heading">MENU</h2>
+      <h2 class="sab-visual-heading">Menu</h2>
     <div>
   </section>
   <section class=menu>

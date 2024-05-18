@@ -27,7 +27,7 @@
          <li><a href="sara.php">トップ</a></li>
          <li><a href="info.php">クリニック情報</a></li>
          <li><a href="https://beauty.hotpepper.jp/slnH000361680/">ご予約</a></li>
-         <li><a href="">最新情報</a></li>
+         <li><a href="latest_information.php">最新情報</a></li>
          <li><a href="qanda.php">よくあるご質問</a></li>
          <li><a href="">プライバシーポリシー</a></li>
         </ul>   

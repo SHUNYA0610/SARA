@@ -11,7 +11,7 @@
     </ul>
   </nav>
     <div class="sab-visual-content">
-      <h2 class="sab-visual-heading">MENU</h2>
+      <h2 class="sab-visual-heading">Menu</h2>
     <div>
   </section>
   <section class=menu>
@@ -50,8 +50,8 @@
    </div>
    <div>
    <p class="menu-text">
-      Contrary to popular belief, Lorem Ipsum is not simply random</br>
-      text. It has roots in a piece of classical Latin literature from 45</br>
+      Contrary to popular belief, Lorem Ipsum is not simply random
+      text. It has roots in a piece of classical Latin literature from 45
       one of the more obscure Latin words, consectetur</p>
    </div>
   </section>
