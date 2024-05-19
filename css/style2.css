@@ -298,7 +298,7 @@ footer {
 }
 
 .footer-menu-contents {
-  width: 1200px;
+  width: 100%;
   height: 100%;  
   margin: 0 auto;
   display: flex;
@@ -307,6 +307,7 @@ footer {
 
 .footer-menu-width1 {
   width: 50%;
+  margin: 50px 50px 0 50px;
   height: 400px;
 }
 .footer-menu-width2 {
@@ -514,6 +515,60 @@ td {
   font-size: 20px;
   font-weight: bold;
 }
+
+.information {
+  width: 850px;
+  margin: 10px auto;
+}
+
+#insta {
+  width: 100%;
+  margin-top: 10px;
+}
+#insta ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+#insta li {
+  list-style: none;
+  width: 20%;
+  margin: 2.5%;
+}
+#insta img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+#insta li a {
+  position: relative;
+  display: block;
+}
+#insta li a .like {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: #fff;
+  opacity: 0.6;
+  text-shadow: 0 0 7px #000;
+}
+#insta .caption {
+  white-space: pre-wrap;
+  word-wrap: break-word; /* もしくは overflow-wrap: break-word; */
+}
+#insta h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight:bold;
+  padding: 30px;
+  color:#333;
+}
+
 
 @media screen and (max-width: 750px) { 
     .inner{

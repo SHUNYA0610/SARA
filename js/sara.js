@@ -82,11 +82,11 @@ const swiper_thumbnail = new Swiper(".swiper_thumbnail", {
     slidesPerView: 3,
 })
 const swiper = new Swiper('.swiper_main', {
-    loop: true,                         
-    autoplay: {                         
-        delay: 2000,  
-    },                   
-    navigation: {                       
+    loop: true,
+    autoplay: {
+        delay: 2000,
+    },
+    navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
@@ -99,5 +99,41 @@ $(function(){
     $('.qa_q').click(function(){
         $(this).next().slideToggle();
         $(this).toggleClass("open");
+  });
+});
+
+//インスタ導入
+$(function(){
+  let list = '';
+  const limit = 16; //表示件数
+  const accessToken = "EAAPxHEsE1egBO1UMoS96TOeZAZAv70RxSsR2C6eQGfX3KNouQK8Y3q3VUb3wiYMYZAOqAOaAmOQT8KZBPSZCurxHGDANQ6VxU50ZBZCFUkgddB2ZCa6naa55IFZBkMfclgqJZAvNhkPM1TjAZA6dClSob99RbnL66vyGknlqZBxaajn8yBH2P7NatQWSdwegFHFVL0VU"; // アクセストークン
+  const businessID = "17841404446788258"; //instagram_business_accountのID
+  const url = `https://graph.facebook.com/v10.0/${businessID}?fields=name,media.limit(${limit}){caption,media_url,thumbnail_url,permalink,like_count,comments_count,media_type}&access_token=${accessToken}`;
+  $.ajax({
+    url: url
+  }).done((res)=> {
+    const data = res.media;
+    $.each(data, function(index, val) {
+      $.each(val, function(i, item) {
+        const caption = item.caption;
+        console.log(item);
+        if(item.media_url){
+          //メディアのタイプがビデオの場合、サムネを取得
+          media = (item.media_type == 'VIDEO' ? item.thumbnail_url : item.media_url);
+          // 一覧を変数listに格納
+          list +=
+          `<li>
+            <a href="${item.permalink}" target="_blank" rel="noopener">
+            <img src="${media}">
+            <span class="like"><i class="fa fa-heart"></i>${item.like_count}</span></a>
+            <span class="caption">${caption}</span>
+          </li>`;
+        }
+
+      })
+    });
+  $('#insta').html(`<ul>${list}</ul>`);
+  }).fail(function(jqXHR, status) {
+    $('#insta').html('<p>読み込みに失敗しました。</p>');
   });
 });

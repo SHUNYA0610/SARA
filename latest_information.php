@@ -14,4 +14,12 @@
       <h2 class="sab-visual-heading">最新情報</h2>
     <div>
   </section>
+  <section class="information">
+    <div class="tb-line">
+      <h2>from SARA Instagram</h2>
+    </div> 
+    <div id="instagram">
+      <div id="insta"></div>
+    </div>
+  </section>
 <?php include('footer.php'); ?>  
