@@ -11,9 +11,16 @@
     </ul>
   </nav>
     <div class="sab-visual-content">
-      <h2 class="sab-visual-heading">Me</h2>
+      <h2 class="sab-visual-heading">Menu</h2>
     <div>
   </section>
+  <div class="sabnav">
+    <ul class="column2">
+     <li><a href="sara.php"><i class="fa-solid fa-house" style="color: #D085FD;"></i>トップ</a></li>
+     <li><a href="menu.php"><i class="fa-solid fa-angle-up fa-rotate-90" style="color: #D085FD;"></i>メニュー</a></li>
+     <li><a href="woman.php"><i class="fa-solid fa-angle-up fa-rotate-90" style="color: #D085FD;"></i>レディース脱毛</a></li>
+    </ul>  
+  </div>
   <section class=menu>
    <div class="tb-line">
       <h2>レディース脱毛 人気メニュー</h2>

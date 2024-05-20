@@ -14,6 +14,12 @@
       <h2 class="sab-visual-heading">よくあるご質問</h2>
     <div>
   </section>
+  <div class="sabnav">
+    <ul class="column2">
+     <li><a href="sara.php"><i class="fa-solid fa-house" style="color: #D085FD;"></i>トップ</a></li>
+     <li><a href="qand.php"><i class="fa-solid fa-angle-up fa-rotate-90" style="color: #D085FD;"></i>よくあるご質問</a></li>
+    </ul>  
+  </div>
   <section>
     <div class="qanda">
       <h3 class="qanda-heading">ご予約等について</h3>
@@ -233,28 +239,12 @@
           </div>
           <div class="qa_box">
               <div class="qa_q">
-                <p class="q_txt">なぜ毛抜きは使っちゃダメなのですか？</p>
-                <div class="toggle_icon"></div>
-              </div>
-              <div class="qa_a">
-                <p class="a_txt">毛抜きを使ってしまうと、肌にダメージを与えてしまうことで、毛嚢炎や鳥肌、埋もれ毛、色素沈着の原因になります。また、毛抜きを使用することで、脱毛の際に反応させたい毛乳頭に毛がついていない状態になり、脱毛の効果に影響がでてしまいます。今後は毛抜きではなく、肌に刺激が少ない電気シェーバーでの処理がおすすめです。</p></div>
-          </div>
-          <div class="qa_box">
-              <div class="qa_q">
                 <p class="q_txt">2年通ってつるつるの状態になりましたが、また毛がでてくることはあるの？</p>
                 <div class="toggle_icon"></div>
                 </div>
               <div class="qa_a">
                 <p class="a_txt">光脱毛は毛乳頭を熱凝固して脱毛を行いますが、もし完全に熱凝固できていなければ再生する可能性があります。照射期間中に成長期ではなかった毛が脱毛終了後に発毛する可能性もあります。一度も毛をはやしたことのない毛穴を潜在的毛のうと言いますが、薬剤や男性ホルモンによって毛が発生する可能性もあります。</p>
               </div>
-          </div>
-          <div class="qa_box">
-              <div class="qa_q">
-                <p class="q_txt">なぜ毛抜きは使っちゃダメなのですか？</p>
-                <div class="toggle_icon"></div>
-              </div>
-              <div class="qa_a">
-                <p class="a_txt">毛抜きを使ってしまうと、肌にダメージを与えてしまうことで、毛嚢炎や鳥肌、埋もれ毛、色素沈着の原因になります。また、毛抜きを使用することで、脱毛の際に反応させたい毛乳頭に毛がついていない状態になり、脱毛の効果に影響がでてしまいます。今後は毛抜きではなく、肌に刺激が少ない電気シェーバーでの処理がおすすめです。</p></div>
           </div>
           <div class="qa_box">
               <div class="qa_q">

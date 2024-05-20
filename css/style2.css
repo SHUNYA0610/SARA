@@ -115,7 +115,7 @@ body {
 .sab-visual {
   width: 100%; /* 横幅いっぱい */
   height: 200px; /* 高さ */
-  background-image: url(../img/mv.png);
+  background-image: url(../img/sabmv.jpg);
   background-size: cover;
   background-position: center;
   margin-bottom: 0px;
@@ -132,7 +132,7 @@ body {
 
 .sab-visual-heading {
   font-size: 70px;
-  color:#000000;
+  color:#FFF;
 }
 
 .menu {
@@ -215,7 +215,7 @@ db {
   width: 70px;
   height: 3px;
   margin: 8px auto 0 auto;
-  background-color: #D3AEB7;
+  background-color: #D085FD;
 }
 .contact-text {
   padding: 30px 0px 30px 0px;
@@ -232,7 +232,6 @@ db {
 .contact-nav {
   display: flex;
 }
-
 .contact-nav-list {
   line-height: 80px;
   padding: 0 30px;
@@ -247,8 +246,12 @@ db {
   display: block;
   height: 100%;
   width: 100%;
+  color: #fff;
+  font-size: 20px;
 }
-
+.contact-nav :hover{/* マウスオーバー時に色変更*/
+    opacity: 0.7;
+}
 /*div要素全体にリンクをつけるために必要な要素*/
 .page-top-link {
     position: relative;
@@ -281,8 +284,9 @@ db {
 
 footer {
   width: 100%;
-  height: 600px;
+  height: 650px;
   background-color: #D085FD;
+  bottom: 0;
 }
 .footer-menu-width1 ul {
 	list-style: none;
@@ -290,13 +294,15 @@ footer {
 }
 .footer-menu-width1 ul li { 
   list-style-position:inside;
-  padding-left: 20px;
+  padding-left: 30px;
 	line-height: 1.6em;
   margin-bottom: 20px;
-  background: url(../img/li.png) left 0px top 3px no-repeat;
-	background-size: 15px auto;
+  background: url(../img/li.png) left -1px top 2px no-repeat;
+	background-size: 30px auto;
 }
-
+.footer-menu-width1 ul li :hover{/* マウスオーバー時に色変更*/
+    opacity: 0.7;
+}
 .footer-menu-contents {
   width: 100%;
   height: 100%;  
@@ -306,18 +312,25 @@ footer {
 }
 
 .footer-menu-width1 {
-  width: 50%;
+  width: 40%;
   margin: 50px 50px 0 50px;
-  height: 400px;
 }
 .footer-menu-width2 {
-  width: 50%;
-  height: 400px;
+  width: 60%;
 }
 #footer-image {
   width: 100%;
-  height: 600px;
+  height: 100%;
   object-fit: cover;
+}
+.footeer-text {
+  margin-top: 10px;
+}
+.footer-top {
+  display: flex;
+}
+.footer-top p {
+  margin:10px 0 0 20px; 
 }
 
 .info {
@@ -378,7 +391,9 @@ td {
   background-color: #D085FD;
   border-radius: 100vh;
 }
-
+.map-nav :hover{/* マウスオーバー時に色変更*/
+    opacity: 0.7;
+}
 .map-nav-list a{
   display: block;
   height: 100%;
@@ -387,9 +402,8 @@ td {
 .gallery {
   width: 100%;
   margin-top: 20px; 
-  padding-top: 30px;
+  padding-top: 20px;
   text-align: center;
-  background-color: #F3CEFE;
 }
 .gallery-title {
   height: 70px;
@@ -398,6 +412,9 @@ td {
   justify-content: center;
   align-items: center;
   margin:0 auto;
+  background-image: url(../img/beginner-back.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .swiper {
   width: 70%;
@@ -415,6 +432,7 @@ td {
 .swiper_thumbnail img {
   vertical-align: bottom;
 }
+
 
 .qanda {
   width: 100%; /* 横幅*/
@@ -543,20 +561,6 @@ td {
   position: relative;
   display: block;
 }
-#insta li a .like {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 25px;
-  color: #fff;
-  opacity: 0.6;
-  text-shadow: 0 0 7px #000;
-}
 #insta .caption {
   white-space: pre-wrap;
   word-wrap: break-word; /* もしくは overflow-wrap: break-word; */
@@ -569,7 +573,172 @@ td {
   color:#333;
 }
 
+#content {
+    background-color:#F3CEFE;
+    line-height:1.5;
+    width:540px;
+    padding:20px;
+    margin:50px auto 0;
+}
+#content h2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
 
+.menus2 {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #fff;
+}
+#menu-heading2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 32px;
+  color: #000000;
+}
+#menu-heading2::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 8px auto 0 auto;
+    background-color: #D085FD;
+}
+.menu-contents2 {
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 40px;
+}
+.Menu2 {
+  position: relative;
+  width: 350px;
+  overflow:hidden;
+  box-shadow: 0 0 10px  #D085FD;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.Menu2:nth-child(2) {
+  margin: 0px 35px; 
+}
+.Menu2 a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:100%;
+  width: 100%;
+}
+.Menu2 a:hover{/* マウスオーバー時に色変更*/
+    opacity: 0.1;
+    background-color: #000000;
+}
+.beginner {
+  position: relative;  
+  margin-top: 50px;
+  width: 90%;
+  height: 120px;
+  background-image: url(../img/beginner-back.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  overflow:hidden;
+  box-shadow: 0 0 10px  #D085FD;
+  border-radius: 10px;
+}
+.beginner a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:100%;
+  width: 100%;
+}
+.beginner a:hover{/* マウスオーバー時に色変更*/
+    opacity: 0.1;
+    background-color: #000000;
+}
+.menu-heading2 {
+  font-size: 25px;
+  color: #000000;  
+  margin: 10px 0px;
+}
+.menu-text2 {
+  text-align: left;
+  color: #000000;  
+  font-size: 16px;
+  margin: 20px;
+}
+.menu-heading3 {
+  font-size: 35px;
+  color: #000000;  
+  margin: 0 auto;
+}
+
+#menu-image2 {
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.sabnav {
+  width: 100%;
+  margin: 10px 0;
+}
+.column2 {
+  width: 70%;
+  margin: 0 auto;
+}
+.column2 li{
+  display: inline;
+  margin-left: 5px;
+}
+.column2 li :hover{/* マウスオーバー時に色変更*/
+  opacity: 0.7;
+}
+
+.beginner-contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F3CEFE;
+}
+.youtube {
+  width: 70%;
+  aspect-ratio:16/9;
+  margin:10px auto;
+}
+.youtube iframe {
+  width: 100%;
+  height: 100%;
+}
+#content2 {
+    background-color:#F3CEFE;
+    line-height:1.5;
+    width:70%;
+    padding:20px;
+    margin:50px auto 0;
+}
+#content2 h2{
+    margin-bottom: 5px;
+}
+#content2 h2:nth-child(2){
+    padding-top: 10px;
+}
+#content2 h2:nth-child(3){
+    padding-top: 10px;
+}
+.warning {
+  width: 100%;
+}
+.content2-title {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
+}
 @media screen and (max-width: 750px) { 
     .inner{
         width: auto;

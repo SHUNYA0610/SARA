@@ -14,6 +14,12 @@
       <h2 class="sab-visual-heading">CLINIC</h2>
     <div>
   </section>
+  <div class="sabnav">
+    <ul class="column2">
+     <li><a href="sara.php"><i class="fa-solid fa-house" style="color: #D085FD;"></i>トップ</a></li>
+     <li><a href="info.php"><i class="fa-solid fa-angle-up fa-rotate-90" style="color: #D085FD;"></i>クリニック情報</a></li>
+    </ul>  
+  </div>
   <section class=info>
    <div class="tb-line">
       <h2>クリニック情報</h2>
@@ -62,11 +68,11 @@
   <section class="map-list">
     <div class="map-contents">
       <ul class="map-nav">
-        <li class="map-nav-list"><a href="https://maps.app.goo.gl/vaBDr4DZwAZN4uxC7"target="_blank"style="text-decoration:none;">GoogleMap</a></li>
+        <li class="map-nav-list"><a href="https://maps.app.goo.gl/vaBDr4DZwAZN4uxC7"target="_blank"style="text-decoration:none;"><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i></i> GoogleMap</a></li>
         <li class="map-nav-list"><a href="https://www.google.com/maps/dir//%E3%80%92639-1044+%E5%A5%88%E8%89%AF%E7%9C%8C%E5%A4%A7%E5%
         92%8C%E9%83%A1%E5%B1%B1%E5%B8%82%E5%B0%8F%E6%B3%89%E7%94%BA%E6%9D%B1%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%98%E2%88%92%EF%BC%96+2f
         /@34.6219624,135.7617694,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x600130092c93f513:0x353b7e1addae5a17!2m2!1d135.7643443!2d34.621958?
-        entry=ttu"target="_blank"style="text-decoration:none;">ルート検索</a></li>
+        entry=ttu"target="_blank"style="text-decoration:none;"><i class="fa-solid fa-person" style="color: #ffffff;"></i> ルート検索</a></li>
       </ul>
     </div> 
   </section>
@@ -82,8 +88,6 @@
             <div class="swiper-slide"><img src="./img/campaign-slider_img01.jpg"></div>
             <div class="swiper-slide"><img src="./img/campaign-slider_img02.jpg"></div>            
         </div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
     </div>
     
     <div class="swiper swiper_thumbnail">

@@ -83,8 +83,10 @@ const swiper_thumbnail = new Swiper(".swiper_thumbnail", {
 })
 const swiper = new Swiper('.swiper_main', {
     loop: true,
+    speed: 1500,
+    effect: 'fade',
     autoplay: {
-        delay: 2000,
+        delay: 2500,
     },
     navigation: {
         nextEl: ".swiper-button-next",
@@ -125,7 +127,6 @@ $(function(){
           `<li>
             <a href="${item.permalink}" target="_blank" rel="noopener">
             <img src="${media}">
-            <span class="like"><i class="fa fa-heart"></i>${item.like_count}</span></a>
             <span class="caption">${caption}</span>
           </li>`;
         }

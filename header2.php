@@ -22,6 +22,6 @@
       <!-------------------------------------------------------------------------------------> 
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
       <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-      <title>美容脱毛専門クリニックSARA</title>
+      <title>美肌脱毛専門クリニックSARA</title>
   </head>
 <body>
