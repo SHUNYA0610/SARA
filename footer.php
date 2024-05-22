@@ -55,7 +55,6 @@
       </div>
     </div>
     <div class="footer-menu-width2">
-      <img id="footer-image" src="img/footer-img.jpg" alt="">
     </div>
   </div>  
 </footer>

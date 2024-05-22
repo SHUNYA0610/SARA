@@ -765,19 +765,17 @@ td {
 .footer-menu-width1 {
   width: 100%;
   margin: 0px 50px 0 10px;
-}
-.footer-menu-width2 {
-  width: 100%;
-}
-.footer-top img {
-  margin-top:20px;
+  padding-top: 25px;
 }
 .footer-menu-width1 ul{
   padding: 5px;
 }
 .footer-top p {
-  margin: 30px 10px 0 10px;
+  margin: 20px 10px 0 10px;
   font-size: 14px;
+}
+.footer-top p br {
+  display: none;
 }
 .footer-top p br {
   display: none;
