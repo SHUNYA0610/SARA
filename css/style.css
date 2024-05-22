@@ -818,6 +818,7 @@ footer {
 }
 .contact-contents {
   width: 95%;
+  padding-bottom: 0px;
 }
 .contact-nav {
   display: block;
@@ -854,16 +855,14 @@ footer {
 .footer-top p br {
   display: none;
 }
+.campaign-slider {
+    width: 95%;
+}
 }
 
 @media screen and (max-width: 412px) {
 .main-visual {
-  width: 100%; /* 横幅いっぱい */
-  height: 500px; /* 高さ */
-  background-image: url(../img/mv.png);
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 0px;
+  background-image: url(../img/mv2.png);
 }
 
 .main-visual-content {
@@ -872,7 +871,7 @@ footer {
 }
 
 .logo {
-  margin: 85px 0 0 50px;
-  height: 40%;
+  margin: 339px 0px 0px 10px;
+  height: 30%;
 }
 }

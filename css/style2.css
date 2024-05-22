@@ -745,6 +745,7 @@ td {
 @media screen and (max-width: 767px) {
 .contact-contents {
   width: 95%;
+  padding-bottom: 0px;
 }
 .contact-nav {
   display: block;
@@ -797,10 +798,69 @@ td {
     height: 15px;
     right: 7px;
 }
+
+.map-nav {
+  display: block;
+}
+.map-nav-list {
+  margin: 20px 30px;
+}
+.gallery {
+  padding-top: 0px;
+}
+#content {
+    width: 90%;
+}
+.menu-contents2 {
+  width: 100%;
+  display: block;
+}
+.Menu2:nth-child(2) {
+  margin: 20px 0;
+}
+.beginner {
+  width: 100%;
+  height: 120px;
+}
+.youtube {
+  width: 90%;
+}
+#content2 {
+    width: 90%;
+}
+.menu {
+  width: 90%;
+  height: auto;
+}
+.column2 {
+  margin: 0; 
+  width: 100%;
+}
+.menu-contents {
+  flex-direction: column-reverse;
+}
+.menu-image {
+  width: 100%;
+}
+.menu-image img {
+  width: 100%;
+  height: 200px;
+  margin: 10px 0 0 0;
+}
+.left-line {
+  width: 100%;
+}
+.information {
+  width: 90%;
+}
+#insta li {
+  width: 45%;
+}
 }
 
 @media screen and (max-width: 412px) { 
     .toggle_icon {
-        right: 0.4rem;
+      right: 0.4rem;
     }
+    
 }

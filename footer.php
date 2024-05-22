@@ -48,7 +48,7 @@
          <li><a href="beginner.php">初めてご利用の方へ</a></li>
          <li><a href="menu.php">メニュー</a></li>           
         </ul>
-      <a class="sns" href="https://amrta-roppongi.com/"target="_blank"style="text-decoration:none;"><i><img src="img/hotpepper.png" alt="" width="30px" height="30px"></i></a>
+      <a class="sns" href=""target="_blank"style="text-decoration:none;"><i><img src="img/hotpepper.png" alt="" width="30px" height="30px"></i></a>
     　<a class="sns" href="https://www.instagram.com/nara.sweet.room_sara?igsh=bnV2ZTUyc3Z6Njl6"target="_blank" style="text-decoration:none;"><i> <img src="img/insta.png" alt="" width="30px" height="30px"></i></a>  
     　<div>    
       <p class="footer-text">Copyright © SARA All Rights Reserved.</p>
