@@ -16,7 +16,7 @@
   </section>
   <div class="sabnav">
     <ul class="column2">
-     <li><a href="sara.php"><i class="fa-solid fa-house" style="color: #D085FD;"></i>トップ</a></li>
+     <li><a href="index.php"><i class="fa-solid fa-house" style="color: #D085FD;"></i>トップ</a></li>
      <li><a href="qand.php"><i class="fa-solid fa-angle-up fa-rotate-90" style="color: #D085FD;"></i>よくあるご質問</a></li>
     </ul>  
   </div>

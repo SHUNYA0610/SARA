@@ -32,7 +32,7 @@
       </div>  
       <h3>CONTENTS</h3>
         <ul class="column">
-         <li><a href="sara.php">トップ</a></li>
+         <li><a href="index.php">トップ</a></li>
          <li><a href="info.php">クリニック情報</a></li>
          <li><a href="https://beauty.hotpepper.jp/slnH000361680/">ご予約</a></li>
          <li><a href="latest_information.php">最新情報</a></li>
@@ -42,14 +42,14 @@
       <h3>MENU</h3>
         <ul class="column">
          <li><a href="">キャンペーン</a></li>
-         <li><a href="menu.php">メニュー</a></li>         
+         <li><a href="woman.php">レディース脱毛</a></li>         
          <li><a href="mens.php">メンズ脱毛</a></li>
          <li><a href="KidsandJunior.php">キッズ&ジュニア脱毛</a></li>
          <li><a href="beginner.php">初めてご利用の方へ</a></li>
-         <li><a href="woman.php">レディース脱毛</a></li>
+         <li><a href="menu.php">メニュー</a></li>           
         </ul>
-      <a href="https://amrta-roppongi.com/"target="_blank"style="text-decoration:none;"><i><img src="img/hotpepper.png" alt="" width="30px" height="30px"></i></a>
-    　<a href="https://www.instagram.com/nara.sweet.room_sara?igsh=bnV2ZTUyc3Z6Njl6"target="_blank" style="text-decoration:none;"><i> <img src="img/insta.png" alt="" width="30px" height="30px"></i></a>  
+      <a class="sns" href="https://amrta-roppongi.com/"target="_blank"style="text-decoration:none;"><i><img src="img/hotpepper.png" alt="" width="30px" height="30px"></i></a>
+    　<a class="sns" href="https://www.instagram.com/nara.sweet.room_sara?igsh=bnV2ZTUyc3Z6Njl6"target="_blank" style="text-decoration:none;"><i> <img src="img/insta.png" alt="" width="30px" height="30px"></i></a>  
     　<div>    
       <p class="footer-text">Copyright © SARA All Rights Reserved.</p>
       </div>

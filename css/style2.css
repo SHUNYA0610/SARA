@@ -284,7 +284,7 @@ db {
 
 footer {
   width: 100%;
-  height: 650px;
+  height: auto;
   background-color: #D085FD;
   bottom: 0;
 }
@@ -305,7 +305,7 @@ footer {
 }
 .footer-menu-contents {
   width: 100%;
-  height: 100%;  
+  height: auto;  
   margin: 0 auto;
   display: flex;
   text-align: left;
@@ -332,7 +332,9 @@ footer {
 .footer-top p {
   margin:10px 0 0 20px; 
 }
-
+.sns :hover{/* マウスオーバー時に色変更*/
+    opacity: 0.7;
+}
 .info {
   width: 90%;
   margin: 10px auto;
@@ -421,6 +423,7 @@ td {
 }
 .swiper img {
   width: 100%;
+  object-fit: cover;
 }
 .swiper_thumbnail .swiper-slide {
   cursor: pointer;
@@ -739,25 +742,64 @@ td {
   margin: 0 auto;
   font-size: 20px;
 }
-@media screen and (max-width: 750px) { 
-    .inner{
-        width: auto;
-    }
-    
-    .toggle_icon {
-        right: 0.8rem;
-    }
-    
-    .toggle_icon:before {
-        width: 15px;
-    }
-    .toggle_icon:after {
-        height: 15px;
-        right: 7px;
-    }
+@media screen and (max-width: 767px) {
+.contact-contents {
+  width: 95%;
+}
+.contact-nav {
+  display: block;
+}
+.contact-nav-list {
+  margin: 20px 30px;
+}
+.contact-text {
+    padding: 30px 5px 10px 5px;
+    font-size: 16px;
+    color: #000000;
+}
+.footer-menu-contents {
+  display: block;
 }
 
-@media screen and (max-width: 480px) { 
+.footer-menu-width1 {
+  width: 100%;
+  margin: 0px 50px 0 10px;
+}
+.footer-menu-width2 {
+  width: 100%;
+}
+.footer-top img {
+  margin-top:20px;
+}
+.footer-menu-width1 ul{
+  padding: 5px;
+}
+.footer-top p {
+  margin: 30px 10px 0 10px;
+  font-size: 14px;
+}
+.footer-top p br {
+  display: none;
+}
+
+.inner{
+    width: auto;
+}
+
+.toggle_icon {
+    right: 0.8rem;
+}
+
+.toggle_icon:before {
+    width: 15px;
+}
+.toggle_icon:after {
+    height: 15px;
+    right: 7px;
+}
+}
+
+@media screen and (max-width: 412px) { 
     .toggle_icon {
         right: 0.4rem;
     }

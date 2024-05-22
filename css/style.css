@@ -93,7 +93,7 @@ a,a:hover,a:visited{
 
 #g-nav li{
   list-style: none;
-  text-align: center; 
+  text-align: center;
 }
 
 #g-nav li a{
@@ -116,8 +116,8 @@ a,a:hover,a:visited{
   width: 50px;
   height:50px;
 }
-  
-/*×に変化*/  
+
+/*×に変化*/
 .openbtn1 span{
   display: inline-block;
   transition: all .4s;
@@ -130,7 +130,7 @@ a,a:hover,a:visited{
 }
 
 .openbtn1 span:nth-of-type(1) {
-  top:15px; 
+  top:15px;
 }
 
 .openbtn1 span:nth-of-type(2) {
@@ -174,7 +174,7 @@ a,a:hover,a:visited{
 }
 
 .logo {
-  margin: 85px 0 0 50px; 
+  margin: 85px 0 0 50px;
   height: 60%;
 }
 
@@ -262,7 +262,7 @@ a,a:hover,a:visited{
 /*------ スライダー横幅 ------*/
 .merit-slider{
   box-shadow: 0 0 10px  rgba(0, 0, 0, 0.35);
-  width: 95%;
+  width: 1200px;
   height: 100%;
   margin:0 auto;
   background-color: #fff;
@@ -292,7 +292,7 @@ a,a:hover,a:visited{
 
 .merit-contents {
   width: 100%;
-  height: 100%;  
+  height: 100%;
   display: flex;
 }
 .merit-width1 {
@@ -311,23 +311,24 @@ a,a:hover,a:visited{
   text-align: center;
   vertical-align: top;
   display: inline-block;
+  object-fit: cover;
 }
 
 .merit-title {
   text-align: left;
   font-size: 32px;
-  color: #000000;  
+  color: #000000;
   margin: 10px 0px 5px 10px;
 }
 .merit-detail {
   text-align: left;
   font-size: 28px;
-  color: #000000;  
+  color: #000000;
   margin: 10px 0px 5px 10px;
 }
 .merit-detail-text {
   text-align: left;
-  color: #000000;  
+  color: #000000;
   font-size: 20px;
   margin-left: 10px;
 }
@@ -370,7 +371,7 @@ a,a:hover,a:visited{
   border-radius: 10px;
 }
 .Menu:nth-child(2) {
-  margin: 0px 35px; 
+  margin: 0px 35px;
 }
 .Menu a {
   position: absolute;
@@ -384,7 +385,7 @@ a,a:hover,a:visited{
     background-color: #000000;
 }
 .beginner {
-  position: relative;  
+  position: relative;
   margin-top: 50px;
   width: 90%;
   height: 120px;
@@ -410,18 +411,18 @@ a,a:hover,a:visited{
 }
 .menu-heading {
   font-size: 25px;
-  color: #000000;  
+  color: #000000;
   margin: 10px 0px;
 }
 .menu-text {
   text-align: left;
-  color: #000000;  
+  color: #000000;
   font-size: 16px;
   margin: 20px;
 }
 .menu-heading2 {
   font-size: 35px;
-  color: #000000;  
+  color: #000000;
   margin: 0 auto;
 }
 
@@ -507,19 +508,14 @@ tr:nth-of-type(even) td{
   width:100%;
   margin:0 auto;
 }
-/*------ スライダー画像 ------*/
-.info-slider img{
-  width:100%;
-}
-
 /*-------- 高さ調整 ----------*/
 .info-slider .slick-slide{
   height: 550px;
 }
 .info-contents {
   box-shadow: 0 0 10px  #D085FD;
-  width: 95%;
-  height: 100%;  
+  width: 1200px;
+  height: 100%;
   margin: 0 auto;
   display: flex;
 }
@@ -534,7 +530,7 @@ tr:nth-of-type(even) td{
 .info-title {
   text-align: left;
   font-size: 32px;
-  color: #000000;  
+  color: #000000;
   margin: 10px 0px 5px 0px;
 }
 .info-detail {
@@ -546,22 +542,22 @@ tr:nth-of-type(even) td{
 .info-adress-detail {
   text-align: left;
   font-size: 20px;
-  color: #000000;  
+  color: #000000;
   margin: 10px 0px 5px 0px;
 }
 .info-open-detail {
   text-align: left;
   font-size: 20px;
-  color: #000000;  
+  color: #000000;
   margin: 10px 0px 5px 0px;
 }
 .info-tel {
   font-size: 35px;
-  color: #000000;  
+  color: #000000;
   padding: 0px;
   margin: 0px 0px 0px 0px;
   line-height:0;
-}  
+}
 .info-sns a {
   display: inline-block;
   float: left;
@@ -579,6 +575,7 @@ tr:nth-of-type(even) td{
   text-align: center;
   vertical-align: top;
   display: inline-block;
+  object-fit: cover;
 }
 .info-link {
   margin-left: 70%;
@@ -641,6 +638,9 @@ tr:nth-of-type(even) td{
 .contact-nav :hover{/* マウスオーバー時に色変更*/
     opacity: 0.7;
 }
+.info-link a :hover{/* マウスオーバー時に色変更*/
+    opacity: 0.7;
+}
 
 /*div要素全体にリンクをつけるために必要な要素*/
 .page-top-link {
@@ -669,14 +669,14 @@ tr:nth-of-type(even) td{
 
 footer {
   width: 100%;
-  height: 650px; 
+  height: auto;
   background-color: #D085FD;
 }
 .footer-menu-width1 ul {
 	list-style: none;
 	padding: 20px;
 }
-.footer-menu-width1 ul li { 
+.footer-menu-width1 ul li {
   list-style-position:inside;
   padding-left: 30px;
 	line-height: 1.6em;
@@ -689,7 +689,7 @@ footer {
 }
 .footer-menu-contents {
   width: 100%;
-  height: 100%;  
+  height: auto;
   margin: 0 auto;
   display: flex;
   text-align: left;
@@ -714,5 +714,165 @@ footer {
   display: flex;
 }
 .footer-top p {
-  margin:10px 0 0 20px; 
+  margin:10px 0 0 20px;
+}
+.sns :hover{/* マウスオーバー時に色変更*/
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 767px) {
+.concept {
+  width: 100%;
+  height: auto;
+}
+.concept-image-contents {
+  width: 95%;
+}
+.concept-image-contents img{
+  width: 100%;
+  height: 100px;
+}
+.concept-detail{
+  width: 80%;
+  padding-bottom: 20px;
+}
+.concept-text br{
+  display: none;
+}
+
+.merit{
+  height: 720px;
+}
+/*------ スライダー横幅 ------*/
+.merit-slider{
+  width: 95%;
+}
+
+.merit-slider .prev-arrow {
+  left: 72.8%;
+}
+
+.merit-slider .next-arrow {
+  left: 85.4%;
+}
+
+.merit-contents {
+  display: flex;
+  flex-direction:column-reverse;
+}
+.merit-width1 {
+  width: 100%;
+  margin: 0;
+}
+.merit-width2 {
+  width: 100%;
+}
+.merit-slider img {
+  height: 300px;
+}
+.merit-title {
+  font-size: 27px;
+}
+.merit-detail {
+  font-size: 23px;
+}
+.merit-detail-text {
+  font-size: 15px;
+  margin: 10px 10px;
+}
+
+.menu-contents {
+  width: 100%;
+  display: block;
+}
+.Menu:nth-child(2) {
+  margin: 20px 0;
+}
+.beginner {
+  width: 100%;
+  height: 120px;
+}
+.info {
+  height: auto;
+}
+.info-contents {
+  width: 95%;
+  display: block;
+}
+.info-width1 {
+  width: 100%;
+  height: 300px;
+}
+.info-slider .slick-slide {
+  height: 300px;
+}
+.info-width2 {
+  width: 90%;
+}
+.info-slider img {
+  height: 300px;
+}
+.info-link {
+  margin-left: 60%;
+  padding-bottom: 10px;
+}
+.contact-contents {
+  width: 95%;
+}
+.contact-nav {
+  display: block;
+}
+.contact-nav-list {
+  margin: 20px 30px;
+}
+.contact-text {
+    padding: 30px 5px 10px 5px;
+    font-size: 16px;
+    color: #000000;
+}
+.footer-menu-contents {
+  display: block;
+}
+
+.footer-menu-width1 {
+  width: 100%;
+  margin: 0px 50px 0 10px;
+}
+.footer-menu-width2 {
+  width: 100%;
+}
+.footer-top img {
+  margin-top:20px;
+}
+.footer-menu-width1 ul{
+  padding: 5px;
+}
+.footer-top p {
+  margin: 30px 10px 0 10px;
+  font-size: 14px;
+}
+.footer-top p br {
+  display: none;
+}
+}
+
+@media screen and (max-width: 412px) {
+.main-visual {
+  width: 100%; /* 横幅いっぱい */
+  height: 500px; /* 高さ */
+  background-image: url(../img/mv.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0px;
+}
+
+.main-visual-content {
+  width: 50%; /* 横幅*/
+  height: 100%; /* 親の高さに揃え */
+}
+
+.logo {
+  margin: 85px 0 0 50px;
+  height: 40%;
+}
 }

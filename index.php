@@ -28,7 +28,7 @@
       完全オーダーメイド施術を行います。最先端の脱毛機器を導入し、<br>
       極限まで痛みを抑えながら、脱毛効果の実感が速いのがSARAの特徴<br>
       ただ脱毛をするだけではなく、通えば通うほどお肌が綺麗になっていく<br>
-      【美肌脱毛】というオリジナル技術で極上美肌へと導きます</p>
+      【美肌脱毛】というオリジナル技術で極上美肌へと導きます。</p>
     </div>
   </section>
   <section class="campaign">
@@ -351,7 +351,7 @@
 　　　   <a href="https://amrta-roppongi.com/"target="_blank"style="text-decoration:none;"><img src="img/hotpepper.png" alt="" width="40px" height="40px"></a>
     　    <a href="https://www.instagram.com/nara.sweet.room_sara?igsh=bnV2ZTUyc3Z6Njl6"target="_blank" style="text-decoration:none;"><img src="img/insta.png" alt="" width="40px" height="40px"></a>
     　 </div>
-    　 <p class="info-link"><a href="info.php" >詳しくはこちら<i class="fa-solid fa-angle-up fa-rotate-90" style="color: #D085FD;"></i></a></p>
+    　 <p class="info-link"><a href="info.php" >詳しくはこちら<i class="fa-solid fa-play" style="color: #D085FD;"></i></a></p>
      </div>
     </div>
   </section>
