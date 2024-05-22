@@ -339,6 +339,7 @@
         <div><img src="img/info-slider_img02.jpg"></div>
         <div><img src="img/info-slider_img03.jpg"></div>
         <div><img src="img/info-slider_img04.jpg"></div>
+        <div><img src="img/info-slider_img05.jpg"></div>        
       </div>
      </div>
      <div class="info-width2">

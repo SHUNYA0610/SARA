@@ -81,23 +81,31 @@
 　 <div>
     <div class="swiper swiper_main">
         <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="./img/campaign-slider_img01.jpg"></div>
-            <div class="swiper-slide"><img src="./img/campaign-slider_img01.jpg"></div>
-            <div class="swiper-slide"><img src="./img/campaign-slider_img01.jpg"></div>
-            <div class="swiper-slide"><img src="./img/campaign-slider_img01.jpg"></div>
-            <div class="swiper-slide"><img src="./img/campaign-slider_img01.jpg"></div>
-            <div class="swiper-slide"><img src="./img/campaign-slider_img02.jpg"></div>            
+            <div class="swiper-slide"><img src="./img/gallery1.jpg"></div>
+            <div class="swiper-slide"><img src="./img/gallery2.jpg"></div>
+            <div class="swiper-slide"><img src="./img/gallery3.jpg"></div>
+            <div class="swiper-slide"><img src="./img/gallery4.jpg"></div>
+            <div class="swiper-slide"><img src="./img/gallery5.jpg"></div>
+            <div class="swiper-slide"><img src="./img/gallery6.jpg"></div>
+            <div class="swiper-slide"><img src="./img/gallery7.jpg"></div>
+            <div class="swiper-slide"><img src="./img/gallery8.jpg"></div>
+            <div class="swiper-slide"><img src="./img/gallery9.jpg"></div>
+            <div class="swiper-slide"><img src="./img/gallery10.jpg"></div>   
         </div>
     </div>
     
     <div class="swiper swiper_thumbnail">
         <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="./img/campaign-slider_img01.jpg"></div>
-            <div class="swiper-slide"><img src="./img/campaign-slider_img01.jpg"></div>
-            <div class="swiper-slide"><img src="./img/campaign-slider_img01.jpg"></div>
-            <div class="swiper-slide"><img src="./img/campaign-slider_img01.jpg"></div>
-            <div class="swiper-slide"><img src="./img/campaign-slider_img01.jpg"></div>
-            <div class="swiper-slide"><img src="./img/campaign-slider_img02.jpg"></div>  
+            <div class="swiper-slide"><img src="./img/gallery1.jpg"></div>
+            <div class="swiper-slide"><img src="./img/gallery2.jpg"></div>
+            <div class="swiper-slide"><img src="./img/gallery3.jpg"></div>
+            <div class="swiper-slide"><img src="./img/gallery4.jpg"></div>
+            <div class="swiper-slide"><img src="./img/gallery5.jpg"></div>
+            <div class="swiper-slide"><img src="./img/gallery6.jpg"></div> 
+            <div class="swiper-slide"><img src="./img/gallery7.jpg"></div>
+            <div class="swiper-slide"><img src="./img/gallery8.jpg"></div>
+            <div class="swiper-slide"><img src="./img/gallery9.jpg"></div>
+            <div class="swiper-slide"><img src="./img/gallery10.jpg"></div>              
         </div>
     </div>
    </div>  

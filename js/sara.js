@@ -54,7 +54,7 @@ $('.info-slider').slick({
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 0,　//隣あう画像のスライドするまでの間隔時間
-    speed: 20000,
+    speed: 12000,
     arrows: false,
     pauseOnFocus: false,
     pauseOnHover: false,
