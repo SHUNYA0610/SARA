@@ -30,7 +30,9 @@
          <p>当店は強引な勧誘によるチケットや回数券の販売、<br>高額な美容機器の販売など一切行っておりません。<br>明朗会計をお約束いたします。</p>
         </div>
       </div>  
+      <div class="catch">        
       <h3>CONTENTS</h3>
+      </div>
         <ul class="column">
          <li><a href="index.php">トップ</a></li>
          <li><a href="info.php">クリニック情報</a></li>
@@ -38,8 +40,10 @@
          <li><a href="latest_information.php">最新情報</a></li>
          <li><a href="qanda.php">よくあるご質問</a></li>
          <li><a href="policy.php">ポリシー</a></li>
-        </ul>   
+        </ul>  
+      <div class="catch">  
       <h3>MENU</h3>
+      </div>
         <ul class="column">
          <li><a href="">キャンペーン</a></li>
          <li><a href="woman.php">レディース脱毛</a></li>         

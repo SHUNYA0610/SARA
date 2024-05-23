@@ -25,7 +25,7 @@
       <div class="menu-contents2">
         <div class="Menu2">
           <a href="woman.php"></a>
-          <img id="menu-image2" src="img/menu-img1.jpg" alt="">
+          <img id="menu-image2" src="img/menuimg1.jpg" alt="">
           <h3 class="menu-heading2">レディース脱毛</h3>
           <p class="menu-text2">Contrary to popular belief, Lorem Ipsum is not simply random text.
           It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
@@ -34,7 +34,7 @@
         </div>
         <div class="Menu2">
           <a href="mens.php"></a>
-          <img id="menu-image2" src="img/menu-img2.jpg" alt="">
+          <img id="menu-image2" src="img/menuimg2.jpg" alt="">
           <h3 class="menu-heading2">メンズ脱毛</h3>
           <p class="menu-text2">Contrary to popular belief, Lorem Ipsum is not simply random text.
           It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
@@ -43,7 +43,7 @@
         </div>
         <div class="Menu2">
           <a href="KidsandJunior.php"></a>
-          <img id="menu-image2" src="img/menu-img3.jpg" alt="">
+          <img id="menu-image2" src="img/menuimg3.jpg" alt="">
           <h3 class="menu-heading2">キッズ&ジュニア脱毛</h3>
           <p class="menu-text2">Contrary to popular belief, Lorem Ipsum is not simply random text.
           It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years

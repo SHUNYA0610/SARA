@@ -44,8 +44,8 @@ $('.merit-slider').slick({
     speed: 800,           //スライドするスピード
     arrows: true,         //左右の矢印
     infinite: true,       //永久にループさせる
-    prevArrow: '<img src="img/BACK.jpg" class="slide-arrow prev-arrow">',
-    nextArrow: '<img src="img/NEXT.jpg" class="slide-arrow next-arrow">',
+    prevArrow: '<img src="img/back.jpg" class="slide-arrow prev-arrow">',
+    nextArrow: '<img src="img/next.jpg" class="slide-arrow next-arrow">',
 });
 
 $('.info-slider').slick({

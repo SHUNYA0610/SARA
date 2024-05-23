@@ -2,7 +2,7 @@
 <html lang="ja">
   <head>
       <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
       <!--------------------アイコン-------------------------------------------------->
       <script src="https://kit.fontawesome.com/45dbcd7273.js" crossorigin="anonymous"></script>
       <!--------------------スライダー見た目-------------------------------------------------->

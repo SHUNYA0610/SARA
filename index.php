@@ -16,9 +16,9 @@
   </section>
   <section class="concept">
     <div class="concept-image-contents">
-      <div><img src="./img/main-img1.jpg"></div>
-      <div><img src="./img/main-img2.jpg"></div>
-      <div><img src="./img/main-img3.jpg"></div>
+      <div><img src="./img/mainimg1.jpg"></div>
+      <div><img src="./img/mainimg2.jpg"></div>
+      <div><img src="./img/mainimg3.jpg"></div>
     </div>
     <div class="concept-detail">
       <h2 class="concept-title">SARA's CONCEPT</h2>
@@ -36,11 +36,11 @@
     <h2 class="campaign-title">Campain</h2>
     </div>
     <div class="campaign-slider">
-      <div><img src="./img/campaign-slider_img01.jpg"></div>
-      <div><img src="./img/campaign-slider_img02.jpg"></div>
-      <div><img src="./img/campaign-slider_img03.jpg"></div>
-      <div><img src="./img/campaign-slider_img04.jpg"></div>
-      <div><img src="./img/campaign-slider_img05.jpg"></div>
+      <div><img src="./img/campaignsliderimg01.jpg"></div>
+      <div><img src="./img/campaignsliderimg02.jpg"></div>
+      <div><img src="./img/campaignsliderimg03.jpg"></div>
+      <div><img src="./img/campaignsliderimg04.jpg"></div>
+      <div><img src="./img/campaignsliderimg05.jpg"></div>
     </div>
   </section>
   <section class="merit">
@@ -53,7 +53,7 @@
                医療脱毛やエステ脱毛など色々な種類がある中、お客様にとってメリット豊富な新しい脱毛テクニックが誕!?圧倒的に刺激が少なく、毛がなくなる期間が短く、他の脱毛機器よりも安価で受けることができます。多くの医師が認める安心・安全重視の最先端脱毛機器を導入しております。</p>
          </div>
          <div class="merit-width2">
-          <img id="merit-image" src="img/merit-slider1.jpg" alt="">
+          <img id="merit-image" src="img/meritslider1.jpg" alt="">
          </div>
        </div>
        <div class="merit-contents">
@@ -64,7 +64,7 @@
                通常に脱毛ジェルは、皮膚にヤケドが発生しないように保護するのが役目でした。しかしもう時代遅れかもしれません。気になるムダ毛を【特殊調合美容液ジェル】で脱毛処理することで、脱毛と同時にお肌のキメを整え保湿し、ついでに美白もできてしまうというのが【美肌脱毛】。これを知ってしまうと今までの脱毛では満足できないでしょう。脱毛の常識が大きく変わり始めています。</p>
          </div>
          <div class="merit-width2">
-          <img id="merit-image" src="img/merit-slider2.jpg" alt="">
+          <img id="merit-image" src="img/meritslider2.jpg" alt="">
          </div>
        </div>
        <div class="merit-contents">
@@ -75,7 +75,7 @@
                初めて脱毛を体験する方にとって、期待と不安を抱えてご来店されているように感じます。SARAでは、キッズ&ジュニア(7歳〜高校生)でも脱毛行えますので、キッズ&ジュニアにも理解できるように脱毛の仕組みや流れなどをわかりやすくお伝えしております。施術前の注意事項・施術後の注意事項などより良いお肌となるお手入れ方法を丁寧にお伝えさせて頂いております。</p>
          </div>
          <div class="merit-width2">
-          <img id="merit-image" src="img/merit-slider2.jpg" alt="">
+          <img id="merit-image" src="img/meritslider2.jpg" alt="">
          </div>
        </div>
        <div class="merit-contents">
@@ -90,7 +90,7 @@
                one of the more obscure Latin words, consectetur</p>
          </div>
          <div class="merit-width2">
-          <img id="merit-image" src="img/merit-slider3.jpg" alt="">
+          <img id="merit-image" src="img/meritslider3.jpg" alt="">
          </div>
        </div>
        <div class="merit-contents">
@@ -101,7 +101,7 @@
                JR大和小泉駅前　徒歩30秒という好立地なので、急な雨でも気にせずご来店頂ける環境となっております。さらに駅前にも関わらず、お車でお越しのお客様も多くいらっしゃるので広くて停めやすい大きな駐車場をご用意しております。(25号線沿いトライアル前のタイムズ駐車場)</p>
          </div>
          <div class="merit-width2">
-          <img id="merit-image" src="img/merit-slider3.jpg" alt="">
+          <img id="merit-image" src="img/meritslider3.jpg" alt="">
          </div>
        </div>
        <div class="merit-contents">
@@ -112,7 +112,7 @@
                SARAは、トータルビューティーサロンスイートルーム(SWEETROOM)の中に併設されています。脱毛の予約前や後に「前髪が目に入ってきているので切りたい」「根元のカラーが伸びてきてしまっている」などなど　ヘアスタイル少し気になっている部分があっても、すぐにご対応してくれるので嬉しいというお声をたくさん頂いております。</p>
          </div>
          <div class="merit-width2">
-          <img id="merit-image" src="img/merit-slider3.jpg" alt="">
+          <img id="merit-image" src="img/meritslider3.jpg" alt="">
          </div>
        </div>
        <div class="merit-contents">
@@ -127,7 +127,7 @@
                one of the more obscure Latin words, consectetur</p>
          </div>
          <div class="merit-width2">
-          <img id="merit-image" src="img/merit-slider3.jpg" alt="">
+          <img id="merit-image" src="img/meritslider3.jpg" alt="">
          </div>
        </div>
        <div class="merit-contents">
@@ -142,7 +142,7 @@
                one of the more obscure Latin words, consectetur</p>
          </div>
          <div class="merit-width2">
-          <img id="merit-image" src="img/merit-slider8.jpg" alt="">
+          <img id="merit-image" src="img/meritslider8.jpg" alt="">
          </div>
        </div>
     </div>
@@ -153,7 +153,7 @@
       <div class="menu-contents">
         <div class="Menu">
           <a href="woman.php"></a>
-          <img id="menu-image" src="img/menu-img1.jpg" alt="">
+          <img id="menu-image" src="img/menuimg1.jpg" alt="">
           <h3 class="menu-heading">レディース脱毛</h3>
           <p class="menu-text">Contrary to popular belief, Lorem Ipsum is not simply random text.
           It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
@@ -162,7 +162,7 @@
         </div>
         <div class="Menu">
           <a href="mens.php"></a>
-          <img id="menu-image" src="img/menu-img2.jpg" alt="">
+          <img id="menu-image" src="img/menuimg2.jpg" alt="">
           <h3 class="menu-heading">メンズ脱毛</h3>
           <p class="menu-text">Contrary to popular belief, Lorem Ipsum is not simply random text.
           It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
@@ -171,7 +171,7 @@
         </div>
         <div class="Menu">
           <a href="KidsandJunior.php"></a>
-          <img id="menu-image" src="img/menu-img3.jpg" alt="">
+          <img id="menu-image" src="img/menuimg3.jpg" alt="">
           <h3 class="menu-heading">キッズ&ジュニア脱毛</h3>
           <p class="menu-text">Contrary to popular belief, Lorem Ipsum is not simply random text.
           It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
@@ -188,10 +188,11 @@
   <section class="price">
     <div class="price-content">
       <h2 id="price-heading">Price</h2>
+      <div class="table-scroll">
       <table class="price-table">
           <tr>
-            <th class="price-table-sticky">コース</th>
-            <th class="price-table-sticky">時間</th>
+            <th class="fixed01">コース</th>
+            <th>時間</th>
             <th>初回お試し</th>
             <th>１回</br>（都度払い）</th>
             <th>６回コース</th>
@@ -200,8 +201,8 @@
             <th>(１回分)</th>
           </tr>
           <tr>
-            <td class="price-table-sticky">全身脱毛+お顔+VIO</td>
-            <td class="price-table-sticky">120分</td>
+            <th class="fixed01">全身脱毛+お顔+VIO</th>
+            <td>120分</td>
             <td>￥8,995円</td>
             <td>￥17,990円</td>
             <td>￥99,800円</td>
@@ -210,8 +211,8 @@
             <td>￥14,983円</td>
           </tr>
           <tr>
-            <td class="price-table-sticky">全身脱毛+VIO</td>
-            <td class="price-table-sticky">90分</td>
+            <th class="fixed01">全身脱毛+VIO</th>
+            <td>90分</td>
             <td>￥7,995円</td>
             <td>￥15,980円</td>
             <td>￥89,800円</td>
@@ -220,8 +221,8 @@
             <td>￥13,317円</td>
           </tr>
           <tr>
-            <td class="price-table-sticky">全身脱毛+お顔</td>
-            <td class="price-table-sticky">90分</td>
+            <th class="fixed01">全身脱毛+お顔</th>
+            <td>90分</td>
             <td>￥7,490円</td>
             <td>￥14,980円</td>
             <td>￥79,800円</td>
@@ -230,8 +231,8 @@
             <td>￥12,483円</td>
           </tr>
           <tr>
-            <td class="price-table-sticky">全身脱毛</td>
-            <td class="price-table-sticky">70分</td>
+            <th class="fixed01">全身脱毛</th>
+            <td>70分</td>
             <td>￥6,490円</td>
             <td>￥12,980円</td>
             <td>￥69,800円</td>
@@ -240,8 +241,8 @@
             <td>￥10,817円</td>
           </tr>
           <tr>
-            <td class="price-table-sticky">お顔全体<br>（女性限定）</td>
-            <td class="price-table-sticky">30分</td>
+            <th class="fixed01">お顔全体<br>（女性限定）</th>
+            <td>30分</td>
             <td>￥3,490円</td>
             <td>￥6,980円</td>
             <td>￥34,800円</td>
@@ -250,8 +251,8 @@
             <td>￥5,400円</td>
           </tr>
           <tr>
-            <td class="price-table-sticky">ひげ<br>（男性限定）</td>
-            <td class="price-table-sticky">40分</td>
+            <th class="fixed01">ひげ<br>（男性限定）</th>
+            <td>40分</td>
             <td>￥4,490円</td>
             <td>￥8,980円</td>
             <td>￥44,800円</td>
@@ -260,8 +261,8 @@
             <td>￥7,067円</td>
           </tr>
           <tr>
-            <td class="price-table-sticky">VIO<br>（女性限定）</td>
-            <td class="price-table-sticky">40分</td>
+            <th class="fixed01">VIO<br>（女性限定）</th>
+            <td>40分</td>
             <td>￥3,990円</td>
             <td>￥7,980円</td>
             <td>￥39,800円</td>
@@ -270,8 +271,8 @@
             <td>￥6,233円</td>
           </tr>
           <tr>
-            <td class="price-table-sticky">上半身<br>（両腕・胸周り・お腹・背中）</td>
-            <td class="price-table-sticky">40分</td>
+            <th class="fixed01">上半身<br>（両腕・胸周り・お腹・背中）</th>
+            <td>40分</td>
             <td>￥3,990円</td>
             <td>￥7,980円</td>
             <td>￥39,800円</td>
@@ -280,8 +281,8 @@
             <td>￥6,233円</td>
           </tr>
           <tr>
-            <td class="price-table-sticky">背中（全体）</td>
-            <td class="price-table-sticky">30分</td>
+            <th class="fixed01">背中（全体）</th>
+            <td>30分</td>
             <td>￥2,990円</td>
             <td>￥5,980円</td>
             <td>￥29,800円</td>
@@ -290,8 +291,8 @@
             <td>￥4,567円</td>
           </tr>
           <tr>
-            <td class="price-table-sticky">下半身<br>（両脚・ヒップ・VIO）</td>
-            <td class="price-table-sticky">50分</td>
+            <th class="fixed01">下半身<br>（両脚・ヒップ・VIO）</th>
+            <td>50分</td>
             <td>￥4,490円</td>
             <td>￥8,980円</td>
             <td>￥44,800円</td>
@@ -300,8 +301,8 @@
             <td>￥7,067円</td>
           </tr>
           <tr>
-            <td class="price-table-sticky">両腕<br>（ひじ・手の指・甲）</td>
-            <td class="price-table-sticky">20分</td>
+            <th class="fixed01">両腕<br>（ひじ・手の指・甲）</th>
+            <td>20分</td>
             <td>￥2,490円</td>
             <td>￥4,980円</td>
             <td>￥24,800円</td>
@@ -310,8 +311,8 @@
             <td>￥3,733円</td>
           </tr>
           <tr>
-            <td class="price-table-sticky">両脚<br>（ひざ・足指・甲）</td>
-            <td class="price-table-sticky">30分</td>
+            <th class="fixed01">両脚<br>（ひざ・足指・甲）</th>
+            <td>30分</td>
             <td>￥2,740円</td>
             <td>￥5,480円</td>
             <td>￥27,800円</td>
@@ -319,8 +320,8 @@
             <td>￥49,800円</td>
             <td>￥4,150円</td>
           </tr>
-            <td class="price-table-sticky">肩ワキ</td>
-            <td class="price-table-sticky">15分</td>
+            <th class="fixed01">肩ワキ</th>
+            <td>15分</td>
             <td>￥1,490円</td>
             <td>￥2,980円</td>
             <td>￥14,800円</td>
@@ -329,17 +330,18 @@
             <td>￥2,067円</td>
           </tr>
         </table>
+        </div>
     </div>
   </section>
   <section class="info">
     <div class="info-contents">
      <div class="info-width1">
       <div class="info-slider">
-        <div><img src="img/info-slider_img01.jpg"></div>
-        <div><img src="img/info-slider_img02.jpg"></div>
-        <div><img src="img/info-slider_img03.jpg"></div>
-        <div><img src="img/info-slider_img04.jpg"></div>
-        <div><img src="img/info-slider_img05.jpg"></div>        
+        <div><img src="img/infosliderimg01.jpg"></div>
+        <div><img src="img/infosliderimg02.jpg"></div>
+        <div><img src="img/infosliderimg03.jpg"></div>
+        <div><img src="img/infosliderimg04.jpg"></div>
+        <div><img src="img/infosliderimg05.jpg"></div>        
       </div>
      </div>
      <div class="info-width2">
@@ -349,7 +351,7 @@
 　　　 <p class="info-tel"><a href="tel:0743-56-1777" style="text-decoration:none;">tel.0743-56-1777</a></p>
 　　　 <p class="info-open-detail">open.9:30~17:00</p>
 　　　 <div class="info-sns">
-　　　   <a href="https://amrta-roppongi.com/"target="_blank"style="text-decoration:none;"><img src="img/hotpepper.png" alt="" width="40px" height="40px"></a>
+　　　   <a href=""target="_blank"style="text-decoration:none;"><img src="img/hotpepper.png" alt="" width="40px" height="40px"></a>
     　    <a href="https://www.instagram.com/nara.sweet.room_sara?igsh=bnV2ZTUyc3Z6Njl6"target="_blank" style="text-decoration:none;"><img src="img/insta.png" alt="" width="40px" height="40px"></a>
     　 </div>
     　 <p class="info-link"><a href="info.php" >詳しくはこちら<i class="fa-solid fa-play" style="color: #D085FD;"></i></a></p>
