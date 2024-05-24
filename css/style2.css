@@ -222,7 +222,25 @@ db {
 .menu-text {
   padding-top: 10px;  
 }
+.clinic-info table {
+  width: 100%;
+  border-collapse: collapse;
+}
 
+.clinic-info th,td {
+  padding: 10px 30px;
+  border: 1px solid #AAAAAA;
+}
+
+.clinic-info th {
+  background-color: #CCCCCC;
+  width: 160px;
+  text-align: left;
+}
+
+.clinic-info td {
+  width: calc(100% - 150px);
+}
 .contact {
   width: 100%;
   text-align: center;
@@ -797,41 +815,41 @@ footer {
 }
 
 
-th,td {
+.price-table th,td {
   padding: 0px 5px;
 }
-table, th, td {
+.price-table, th, td {
   border: 1px solid black;
 }
 
-table{
+.price-table{
   font-family: 'Oswald', sans-serif;
   border-collapse:collapse;
 }
 
-th{
+.price-table th{
   background-color: #D085FD;
   color:#ffffff;
   width:30vw;
   height:60px;
 }
 
-td{
+.price-table td{
   background-color:#ffffff;
   width:20vw;
   height:50px;
   text-align:center;
 }
 
-tr{
+.price-table tr{
   border-bottom: 1px solid #dddddd;
 }
 
-tr:last-of-type{
+.price-table tr:last-of-type{
   border-bottom: 1px solid #000000;
 }
 
-tr:nth-of-type(even) td{
+.price-table tr:nth-of-type(even) td{
   background-color: #D085FD;
 }
 
@@ -990,7 +1008,7 @@ tr:nth-of-type(even) td{
   z-index: -1;
   box-sizing: content-box;
 }
-table, th, td {
+.price-table, th, td {
   border: none;
 }
 }
@@ -1035,5 +1053,11 @@ td {
 .table-scroll th,
 .table-scroll td {
   width: 95px;
+}
+.clinic-info th {
+  width: 100px;
+}
+.clinic-info th, td {
+  padding: 10px 10px;
 }
 }
