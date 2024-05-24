@@ -383,25 +383,6 @@ footer {
   margin-bottom: 20px;
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-th,td {
-  padding: 10px 30px;
-  border: 1px solid #AAAAAA;
-}
-
-th {
-  background-color: #CCCCCC;
-  width: 160px;
-  text-align: left;
-}
-
-td {
-  width: calc(100% - 150px);
-}
 .contact {
   width: 100%;
   text-align: center;
@@ -801,29 +782,24 @@ td {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  padding-bottom: 20px;
+  padding-bottom: 45px;
   background-color: #F3CEFE;
 }
 .price-content {
-  width: 80%;
+  width: 85%;
 }
 #price-heading {
   padding-top: 30px;
-  font-size: 32px;
   color: #000000;
-}
-#price-heading::after {
-    content: "";
-    display: block;
-    width: 70px;
-    height: 3px;
-    margin: 8px auto 0 auto;
-    background-color: #D085FD;
 }
 .price-table{
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
 }
 
+
+th,td {
+  padding: 0px 5px;
+}
 table, th, td {
   border: 1px solid black;
 }

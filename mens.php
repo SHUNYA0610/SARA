@@ -56,7 +56,7 @@
   </section>
   <section class="price">
     <div class="price-content">
-      <h2 id="price-heading">Price</h2>
+      <h2 id="price-heading">基本料金</h2>
       <div class="table-scroll">
       <table class="price-table">
           <tr>

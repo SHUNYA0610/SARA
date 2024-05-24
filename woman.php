@@ -53,16 +53,16 @@
       one of the more obscure Latin words, consectetur</p>
    </div>    
   </section>
-  <section class="price">
+    <section class="price">
     <div class="price-content">
-      <h2 id="price-heading">Price</h2>
+      <h2 id="price-heading">基本料金</h2>
       <div class="table-scroll">
       <table class="price-table">
           <tr>
             <th class="fixed01">コース</th>
             <th>時間</th>
             <th>初回お試し</th>
-            <th>１回</br>（都度払い）</th>
+            <th>１回（都度払い）</th>
             <th>６回コース</th>
             <th>(１回分)</th>
         　　<th>１２回コース</th>
