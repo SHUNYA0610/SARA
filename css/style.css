@@ -728,6 +728,7 @@ footer {
   margin-left: 10px;
 }
 
+}
 @media screen and (max-width: 767px) {
 .concept {
   width: 100%;
@@ -862,6 +863,7 @@ footer {
     width: 95%;
 }
 .table-scroll {
+
   overflow-x: auto;
 }
 
@@ -894,7 +896,7 @@ footer {
   box-sizing: content-box;
 }
 table, th, td {
-  border: none; 
+  border: none;
 }
 }
 

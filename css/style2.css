@@ -751,6 +751,24 @@ td {
   margin: 0 auto;
   font-size: 20px;
 }
+.campaign {
+  width: 100%;
+  margin-top: 10px; 
+  padding-top: 20px;
+  text-align: center;
+}
+.campaign-title {
+  height: 70px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0 auto;
+  background-image: url(../img/beginnerback.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 @media screen and (max-width: 767px) {
 .contact-contents {
   width: 100%;

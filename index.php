@@ -36,11 +36,11 @@
     <h2 class="campaign-title">Campain</h2>
     </div>
     <div class="campaign-slider">
-      <div><img src="./img/campaignsliderimg01.jpg"></div>
-      <div><img src="./img/campaignsliderimg02.jpg"></div>
-      <div><img src="./img/campaignsliderimg03.jpg"></div>
-      <div><img src="./img/campaignsliderimg04.jpg"></div>
-      <div><img src="./img/campaignsliderimg05.jpg"></div>
+      <div><a href="campaign.php"><img src="./img/campaignsliderimg01.jpg"></a></div>
+      <div><a href="campaign.php"><img src="./img/campaignsliderimg02.jpg"></a></div>
+      <div><a href="campaign.php"><img src="./img/campaignsliderimg03.jpg"></a></div>
+      <div><a href="campaign.php"><img src="./img/campaignsliderimg04.jpg"></a></div>
+      <div><a href="campaign.php"><img src="./img/campaignsliderimg05.jpg"></a></div>
     </div>
   </section>
   <section class="merit">

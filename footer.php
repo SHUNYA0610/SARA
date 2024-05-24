@@ -45,7 +45,7 @@
       <h3>MENU</h3>
       </div>
         <ul class="column">
-         <li><a href="">キャンペーン</a></li>
+         <li><a href="campaign.php">キャンペーン</a></li>
          <li><a href="woman.php">レディース脱毛</a></li>         
          <li><a href="mens.php">メンズ脱毛</a></li>
          <li><a href="KidsandJunior.php">キッズ&ジュニア脱毛</a></li>
