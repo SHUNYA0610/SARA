@@ -12,7 +12,7 @@ body {
 a,a:hover,a:visited{
     color: inherit;
 }
-
+  
 .logo_fadein{
 	background: #FFF;
 	position: fixed;
@@ -69,7 +69,7 @@ a,a:hover,a:visited{
     left:0;
   width:100%;
     height: 100vh;/*ナビの高さ*/
-  background:#999;
+  background:#D085FD;
     /*動き*/
   transition: all 0.6s;
 }
@@ -78,34 +78,60 @@ a,a:hover,a:visited{
 #g-nav.panelactive{
   top: 0;
 }
-
-/*ナビゲーション*/
-#g-nav ul {
-  /*ナビゲーション天地中央揃え*/
-  position: absolute;
-  z-index: 999;
-  top:50%;
-  left:50%;
-  transform: translate(-50%,-50%);
+.nav-column{
+ column-count: 2;
 }
 
-/*リストのレイアウト設定*/
-
-#g-nav li{
-  list-style: none;
-  text-align: center;
+.nav-menu-width1 ul {
+	list-style: none;
+	padding: 20px;
+}
+.nav-menu-width1 ul li {
+  list-style-position:inside;
+  padding-left: 30px;
+	line-height: 1.6em;
+  margin-bottom: 20px;
+  background: url(../img/li.png) left -1px top 2px no-repeat;
+	background-size: 30px auto;
+}
+.nav-menu-width1 ul li :hover{/* マウスオーバー時に色変更*/
+  opacity: 0.7;
+}
+.nav-menu-contents {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  text-align: left;
 }
 
-#g-nav li a{
-  color: #333;
-  text-decoration: none;
-  padding:10px;
-  display: block;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-weight: bold;
+.nav-menu-width1 {
+  width: 100%;
+  margin: 50px auto;
+  padding-left: 10px;
 }
-
+.nav-text {
+  margin-top: 10px;
+}
+.nav-top {
+  display: flex;
+}
+.nav-top p {
+  margin:10px 0 0 20px;
+}
+.nav-sns :hover{/* マウスオーバー時に色変更*/
+    opacity: 0.7;
+}
+.nav-catch {
+  display: flex;
+  align-items: center; /* 垂直中心 */
+}
+.nav-catch:after {
+  border-top: 1px solid;
+  content: "";
+  width: 15em; /* 線の長さ */
+  margin-left: 10px;
+}
 /*========= ボタンのためのCSS ===============*/
 .openbtn1{
   position:fixed;
@@ -432,75 +458,11 @@ a,a:hover,a:visited{
   object-fit: cover;
 }
 
-.price {
-  width: 100%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  padding-bottom: 20px;
-  background-color: #F3CEFE;
-}
-.price-content {
-  width: 80%;
-}
-#price-heading {
-  padding-top: 30px;
-  font-size: 32px;
-  color: #000000;
-}
-#price-heading::after {
-    content: "";
-    display: block;
-    width: 70px;
-    height: 3px;
-    margin: 8px auto 0 auto;
-    background-color: #D085FD;
-}
-.price-table{
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
-}
-
-table, th, td {
-  border: 1px solid black;
-}
-
-table{
-  font-family: 'Oswald', sans-serif;
-  border-collapse:collapse;
-}
-
-th{
-  background-color: #D085FD;
-  color:#ffffff;
-  width:30vw;
-  height:60px;
-}
-
-td{
-  background-color:#ffffff;
-  width:20vw;
-  height:50px;
-  text-align:center;
-}
-
-tr{
-  border-bottom: 1px solid #dddddd;
-}
-
-tr:last-of-type{
-  border-bottom: 1px solid #000000;
-}
-
-tr:nth-of-type(even) td{
-  background-color: #D085FD;
-}
-
 .info{
   width: 100%;
-  height: 450px;
-  background-color: #FFF;
-  margin: 40px 0px;
+  height: 550px;
+  background-color: #F3CEFE;
+  padding: 50px 0px;
 }
 /*------ スライダー横幅 ------*/
 .info-slider{
@@ -512,7 +474,8 @@ tr:nth-of-type(even) td{
   height: 550px;
 }
 .info-contents {
-  box-shadow: 0 0 10px  #D085FD;
+  box-shadow: 0 0 10px  rgba(0, 0, 0, 0.35);
+  width: 1200px;
   width: 1200px;
   height: 100%;
   margin: 0 auto;
@@ -524,7 +487,8 @@ tr:nth-of-type(even) td{
 }
 .info-width2 {
   width: 40%;
-  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
 }
 .info-title {
   text-align: left;
@@ -728,7 +692,6 @@ footer {
   margin-left: 10px;
 }
 
-}
 @media screen and (max-width: 767px) {
 .concept {
   width: 100%;
@@ -816,7 +779,7 @@ footer {
   height: 300px;
 }
 .info-width2 {
-  width: 90%;
+  width: 100%;
 }
 .info-slider img {
   height: 300px;
@@ -862,42 +825,6 @@ footer {
 .campaign-slider {
     width: 95%;
 }
-.table-scroll {
-
-  overflow-x: auto;
-}
-
-.table-scroll table {
-  width: 100%;
-  min-width: 1000px;
-}
-
-.table-scroll th,
-.table-scroll td {
-  width: 200px;
-}
-
-.table-scroll th.fixed01{
-  position: sticky;
-  top:0;
-  left:0;
-}
-
-.table-scroll th.fixed01::before{
-  content: "";
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  border-left: 1px #ccc solid;
-  border-right: 1px #ccc solid;
-  z-index: -1;
-  box-sizing: content-box;
-}
-table, th, td {
-  border: none;
-}
 }
 
 @media screen and (max-width: 412px) {
@@ -908,10 +835,6 @@ table, th, td {
 .main-visual-content {
   width: 50%; /* 横幅*/
   height: 100%; /* 親の高さに揃え */
-}
-.table-scroll th,
-.table-scroll td {
-  width: 95px;
 }
 .logo {
   margin: 339px 0px 0px 10px;
@@ -930,17 +853,5 @@ table, th, td {
 }
 .footer-menu-width1 {
     width: auto;
-}
-th.fixed01 {
-    font-size: 12px;
-}
-th {
-    font-size: 12px;
-}
-td {
-    font-size: 15px;
-}
-.price-content {
-    width: 100%;
 }
 }

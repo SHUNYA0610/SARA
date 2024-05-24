@@ -1,15 +1,7 @@
 <?php include('header2.php'); ?>
 <main>
   <section class="sab-visual">
-  <div class="openbtn1"><span></span><span></span><span></span></div>
-  <nav id="g-nav">
-    <ul>
-      <li><a href="#">Top</a></li>  
-      <li><a href="#">About</a></li>  
-      <li><a href="#">Service</a></li>  
-      <li><a href="#">Contact</a></li>  
-    </ul>
-  </nav>
+<?php include('nav.php'); ?>
     <div class="sab-visual-content">
       <h2 class="sab-visual-heading">CLINIC</h2>
     <div>
@@ -52,7 +44,7 @@
       </tr>
       <tr>
         <th>アクセス</th>
-        <td>JR大和小泉駅から徒歩3秒</td>
+        <td>JR大和小泉駅から徒歩30秒</td>
       </tr>
      </table>
     </div>

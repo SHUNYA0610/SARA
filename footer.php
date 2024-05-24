@@ -31,7 +31,7 @@
         </div>
       </div>  
       <div class="catch">        
-      <h3>CONTENTS</h3>
+      <h3>CONTENTS </h3>
       </div>
         <ul class="column">
          <li><a href="index.php">トップ</a></li>
@@ -42,7 +42,7 @@
          <li><a href="policy.php">ポリシー</a></li>
         </ul>  
       <div class="catch">  
-      <h3>MENU</h3>
+      <h3>MENU </h3>
       </div>
         <ul class="column">
          <li><a href="campaign.php">キャンペーン</a></li>
