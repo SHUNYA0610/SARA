@@ -67,7 +67,7 @@
                初めて脱毛を体験する方にとって、期待と不安を抱えてご来店されているように感じます。SARAでは、キッズ&ジュニア(7歳〜高校生)でも脱毛行えますので、キッズ&ジュニアにも理解できるように脱毛の仕組みや流れなどをわかりやすくお伝えしております。施術前の注意事項・施術後の注意事項などより良いお肌となるお手入れ方法を丁寧にお伝えさせて頂いております。</p>
          </div>
          <div class="merit-width2">
-          <img id="merit-image" src="img/meritslider2.jpg" alt="">
+          <img id="merit-image" src="img/meritslider3.jpg" alt="">
          </div>
        </div>
        <div class="merit-contents">
@@ -93,7 +93,7 @@
                JR大和小泉駅前　徒歩30秒という好立地なので、急な雨でも気にせずご来店頂ける環境となっております。さらに駅前にも関わらず、お車でお越しのお客様も多くいらっしゃるので広くて停めやすい大きな駐車場をご用意しております。(25号線沿いトライアル前のタイムズ駐車場)</p>
          </div>
          <div class="merit-width2">
-          <img id="merit-image" src="img/meritslider3.jpg" alt="">
+          <img id="merit-image" src="img/meritslider5.jpg" alt="">
          </div>
        </div>
        <div class="merit-contents">

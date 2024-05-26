@@ -7,16 +7,16 @@
       <!--------------------アイコン-------------------------------------------------->
       <script src="https://kit.fontawesome.com/45dbcd7273.js" crossorigin="anonymous"></script>
       <!--------------------スライダー見た目-------------------------------------------------->
-      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
-      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+      <link rel="stylesheet" type="text/css" href="./css/slick.css">
+      <link rel="stylesheet" type="text/css" href="./css/slick-theme.css">
       <!-------------------------------------------------------------------------------------> 
       
       <!--------------------jQuery-----------------------------------------------------------> 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+      <script src="js/jquery.min.js"></script>
       <!------------------------------------------------------------------------------------->  
       
       <!--------------------スライダー動かすもの----------------------------------------------->  
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+      <script src="js/slick.min.js"></script>
       <!-------------------------------------------------------------------------------------> 
       <!------------------- CSSファイルの読み込み -------------------------------------------->
       <link rel="stylesheet" href="./css/style.css" />

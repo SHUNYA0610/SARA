@@ -1,4 +1,4 @@
-<?php include('header2.php'); ?>
+<?php include('header6.php'); ?>
 <main>
   <section class="sab-visual">
   <div class="openbtn1"><span></span><span></span><span></span></div>
