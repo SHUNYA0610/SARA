@@ -13,12 +13,18 @@
     </ul>  
   </div>
   <section class="campaign">
-   <h2 class="campaign-title">ギャラリー</h2>
-　 <div>
-    <div class="">
-
+   <h2 class="campaign-title">レディース脱毛 祝オープン価格</h2>
+    <div class="campaign-img">
+　　  <a href="./img/campaign-woman.png" target="_blank"><img src="./img/campaign-woman.png"></a>
     </div>
-   </div>  
+   <h2 class="campaign-title">メンズ脱毛 祝オープン価格</h2>
+    <div class="campaign-img">
+　　　<a href="./img/campaign-mens.png" target="_blank"><img src="./img/campaign-mens.png"></a>
+    </div>
+   <h2 class="campaign-title">キッズ&ジュニア脱毛 祝オープン価格</h2>
+    <div class="campaign-img">
+　　　<a href="./img/campaign-kids.png" target="_blank"><img src="./img/campaign-kids.png"></a>
+    </div>  
   </section>
   
 <?php include('footer.php'); ?>  

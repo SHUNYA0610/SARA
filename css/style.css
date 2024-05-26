@@ -476,7 +476,6 @@ a,a:hover,a:visited{
 .info-contents {
   box-shadow: 0 0 10px  rgba(0, 0, 0, 0.35);
   width: 1200px;
-  width: 1200px;
   height: 100%;
   margin: 0 auto;
   display: flex;
@@ -691,7 +690,27 @@ footer {
   width: 15em; /* 線の長さ */
   margin-left: 10px;
 }
+@media screen and (max-width: 1250px) {
 
+.menu-contents {
+  width: 100%; 
+}
+.Menu:nth-child(3) {
+  margin: 40px 0;
+}
+.footer-top p br {
+  display: none;
+}
+.merit-slider{
+  width: 95%;
+}
+.info-contents {
+  width: 95%;
+}
+.info-link {
+    margin-left: 50%;
+}
+}  
 @media screen and (max-width: 767px) {
 .concept {
   width: 100%;
@@ -716,10 +735,6 @@ footer {
   height: 720px;
 }
 /*------ スライダー横幅 ------*/
-.merit-slider{
-  width: 95%;
-}
-
 .merit-slider .prev-arrow {
   left: 72.8%;
 }
@@ -754,10 +769,12 @@ footer {
 }
 
 .menu-contents {
-  width: 100%;
   display: block;
 }
 .Menu:nth-child(2) {
+  margin: 20px 0;
+}
+.Menu:nth-child(3) {
   margin: 20px 0;
 }
 .beginner {
@@ -819,9 +836,6 @@ footer {
   margin: 20px 10px 0 10px;
   font-size: 14px;
 }
-.footer-top p br {
-  display: none;
-}
 .campaign-slider {
     width: 95%;
 }
@@ -839,6 +853,9 @@ footer {
 .logo {
   margin: 339px 0px 0px 10px;
   height: 30%;
+}
+.merit {
+  height: 780px;
 }
 .footer-top p {
   margin: 17px 10px 0 10px;

@@ -165,7 +165,7 @@ body {
 .menu {
   width: 850px;
   margin: 10px auto;
-  height: 450px;
+  height: 480px;
 }
 .menu-contents {
   display: flex;
@@ -204,10 +204,10 @@ db {
   text-align: center;
 }
 .menu-price {
-  width: 50%;
+  width: 44%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: right;
   font-size: 30px;
 }
 .menu-image {
@@ -215,7 +215,7 @@ db {
 }
 .menu-image img{
   width: 350px;
-  height: 190px;
+  height: 200px;
   margin: 40px 30px 0px 30px;
   object-fit: cover;
 }
@@ -794,6 +794,16 @@ footer {
   background-size: cover;
   background-position: center;
 }
+.campaign-img {
+  width: 85%;
+  margin: 0 auto;
+}
+.campaign-img img {
+  width: 100%;
+}
+.campaign-img :hover{/* マウスオーバー時に色変更*/
+    opacity: 0.7;
+}
 .price {
   width: 100%;
   text-align: center;
@@ -829,7 +839,7 @@ footer {
 
 .price-table th{
   background-color: #D085FD;
-  color:#ffffff;
+  color:#000;
   width:30vw;
   height:60px;
 }
@@ -853,7 +863,21 @@ footer {
   background-color: #D085FD;
 }
 
+@media screen and (max-width: 1250px) {
+
+.menu-contents2 {
+  width: 100%; 
+}
+.Menu2:nth-child(3) {
+  margin: 40px 0;
+}
+.footer-top p br {
+  display: none;
+}
+  
+}  
 @media screen and (max-width: 767px) {
+
 .contact-contents {
   width: 100%;
   padding-bottom: 0px;
@@ -885,13 +909,6 @@ footer {
   margin: 20px 10px 0 10px;
   font-size: 14px;
 }
-.footer-top p br {
-  display: none;
-}
-.footer-top p br {
-  display: none;
-}
-
 .inner{
     width: auto;
 }
@@ -921,10 +938,12 @@ footer {
     width: 90%;
 }
 .menu-contents2 {
-  width: 100%;
   display: block;
 }
 .Menu2:nth-child(2) {
+  margin: 20px 0;
+}
+.Menu2:nth-child(3) {
   margin: 20px 0;
 }
 .beginner {
@@ -1003,14 +1022,11 @@ footer {
   left: 0px;
   width: 100%;
   height: 100%;
-  border-left: 1px #ccc solid;
-  border-right: 1px #ccc solid;
+  border-right: 1px #000 solid;
   z-index: -1;
   box-sizing: content-box;
 }
-.price-table, th, td {
-  border: none;
-}
+
 }
 
 @media screen and (max-width: 412px) { 
@@ -1021,7 +1037,7 @@ footer {
 .footer-top p {
   margin: 17px 10px 0 10px;
   font-size: 12px;
-  width: 210px;
+  width: 250px;
 }
 .column a {
   font-size: 12.5px;
@@ -1059,5 +1075,11 @@ td {
 }
 .clinic-info th, td {
   padding: 10px 10px;
+}
+.menu-price {
+  font-size: 25px;
+}
+.campaign-title {
+  font-size: 17px;
 }
 }

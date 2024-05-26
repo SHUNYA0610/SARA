@@ -21,26 +21,26 @@
      <div class="left-line">  
         <dl>
           <db>
-            <div class="menu-heading">肩</div>
-            <div class="menu-price">￥000000</div>
+            <div class="menu-heading">肩ワキ</div>
+            <div class="menu-price">￥3,980円</div>
           </db>  
           <dt></dt>
         <dl>
           <db>        
             <div class="menu-heading">VIO(女性限定)</div>
-            <div class="menu-price">￥000000</div>  
+            <div class="menu-price">￥9,980円</div>  
           </db>            
           <dt></dt>
         <dl>
           <db>        
             <div class="menu-heading">両足(両脚)</div>
-            <div class="menu-price">￥000000</div>
+            <div class="menu-price">￥5,980円</div>
           </db>            
           <dt></dt>
         <dl>
           <db>        
             <div class="menu-heading">両腕</div>
-            <div class="menu-price">￥000000</div>
+            <div class="menu-price">￥5,480円</div>
           </db>            
         </dl>
      </div>  
@@ -53,149 +53,150 @@
       one of the more obscure Latin words, consectetur</p>
    </div>    
   </section>
-    <section class="price">
+  <section class="price">
     <div class="price-content">
-      <h2 id="price-heading">基本料金</h2>
+      <h2 id="price-heading">コース料金表</h2>
       <div class="table-scroll">
       <table class="price-table">
           <tr>
             <th class="fixed01">コース</th>
             <th>時間</th>
-            <th>初回お試し</th>
+            <th>初来店<br>（お試し）</th>
             <th>１回（都度払い）</th>
             <th>６回コース</th>
-            <th>(１回分)</th>
+            <th>１回分<br>[約5%オフ]</th>
         　　<th>１２回コース</th>
-            <th>(１回分)</th>
+            <th>１回分<br>[約10%オフ]</th>
           </tr>
           <tr>
-            <th class="fixed01">全身脱毛+お顔+VIO</th>
-            <td>120分</td>
-            <td>￥8,995円</td>
-            <td>￥17,990円</td>
-            <td>￥99,800円</td>
-            <td>￥16,663円</td>
-            <td>￥179,800円</td>
-            <td>￥14,983円</td>
+            <th class="fixed01">全身脱毛+(お顔+VIO)</th>
+            <td>110分</td>
+            <td>￥12,490円</td>
+            <td>￥24,980円</td>
+            <td>￥139,800円</td>
+            <td>￥23,300円</td>
+            <td>￥269,800円</td>
+            <td>￥22,400円</td>
           </tr>
           <tr>
-            <th class="fixed01">全身脱毛+VIO</th>
+            <th class="fixed01" style="background-color: #fff;">全身脱毛+(VIO)</th>
             <td>90分</td>
-            <td>￥7,995円</td>
-            <td>￥15,980円</td>
-            <td>￥89,800円</td>
-            <td>￥14,967円</td>
-            <td>￥159,800円</td>
-            <td>￥13,317円</td>
+            <td>￥10,990円</td>
+            <td>￥21,980円</td>
+            <td>￥124,800円</td>
+            <td style="border-left: 1px #000 dashed">￥20,800円</td>
+            <td>￥236,800円</td>
+            <td>￥19,700円</td>
           </tr>
           <tr>
-            <th class="fixed01">全身脱毛+お顔</th>
-            <td>90分</td>
-            <td>￥7,490円</td>
-            <td>￥14,980円</td>
-            <td>￥79,800円</td>
-            <td>￥13,300円</td>
-            <td>￥149,800円</td>
-            <td>￥12,483円</td>
+            <th class="fixed01">全身脱毛+(お顔)</th>
+            <td>85分</td>
+            <td>￥10,490円</td>
+            <td>￥20,980円</td>
+            <td>￥119,800円</td>
+            <td>￥19,900円</td>
+            <td>￥226,800円</td>
+            <td>￥18,900円</td>
           </tr>
           <tr>
-            <th class="fixed01">全身脱毛</th>
-            <td>70分</td>
-            <td>￥6,490円</td>
-            <td>￥12,980円</td>
-            <td>￥69,800円</td>
-            <td>￥11,633円</td>
-            <td>￥129,800円</td>
-            <td>￥10,817円</td>
+            <th class="fixed01" style="background-color: #fff;">全身脱毛</th>
+            <td>60分</td>
+            <td>￥8,990円</td>
+            <td>￥17,980円</td>
+            <td>￥102,800円</td>
+            <td>￥17,100円</td>
+            <td>￥193,800円</td>
+            <td>￥16,100円</td>
           </tr>
           <tr>
-            <th class="fixed01">お顔全体<br>（女性限定）</th>
-            <td>30分</td>
-            <td>￥3,490円</td>
-            <td>￥6,980円</td>
-            <td>￥34,800円</td>
-            <td>￥5,800円</td>
-            <td>￥64,800円</td>
-            <td>￥5,400円</td>
-          </tr>
-          <tr>
-            <th class="fixed01">ひげ<br>（男性限定）</th>
-            <td>40分</td>
-            <td>￥4,490円</td>
-            <td>￥8,980円</td>
-            <td>￥44,800円</td>
-            <td>￥7,467円</td>
-            <td>￥84,800円</td>
-            <td>￥7,067円</td>
-          </tr>
-          <tr>
-            <th class="fixed01">VIO<br>（女性限定）</th>
-            <td>40分</td>
-            <td>￥3,990円</td>
-            <td>￥7,980円</td>
-            <td>￥39,800円</td>
-            <td>￥6,633円</td>
-            <td>￥74,800円</td>
-            <td>￥6,233円</td>
-          </tr>
-          <tr>
-            <th class="fixed01">上半身<br>（両腕・胸周り・お腹・背中）</th>
-            <td>40分</td>
-            <td>￥3,990円</td>
-            <td>￥7,980円</td>
-            <td>￥39,800円</td>
-            <td>￥6,633円</td>
-            <td>￥74,800円</td>
-            <td>￥6,233円</td>
-          </tr>
-          <tr>
-            <th class="fixed01">背中（全体）</th>
-            <td>30分</td>
-            <td>￥2,990円</td>
-            <td>￥5,980円</td>
-            <td>￥29,800円</td>
-            <td>￥4,967</td>
-            <td>￥54,800円</td>
-            <td>￥4,567円</td>
-          </tr>
-          <tr>
-            <th class="fixed01">下半身<br>（両脚・ヒップ・VIO）</th>
+            <th class="fixed01">VIO+両腕+両足</th>
             <td>50分</td>
+            <td>￥6,490円</td>
+            <td>￥14,980円</td>
+            <td>￥7,800円</td>
+            <td>￥12,300円</td>
+            <td>￥139,800円</td>
+            <td>￥11,600円</td>
+          </tr>
+          <tr>
+            <th class="fixed01" style="background-color: #fff;">お顔+両腕+両足</th>
+            <td>45分</td>
+            <td>￥6,990円</td>
+            <td>￥13,980円</td>
+            <td>￥78,800円</td>
+            <td>￥13,100円</td>
+            <td>￥149,800円</td>
+            <td>￥12,500円</td>
+          </tr>
+          <tr>
+            <th class="fixed01">両腕+両ワキ+両足</th>
+            <td>35分</td>
+            <td>￥5,990円</td>
+            <td>￥11,980円</td>
+            <td>￥67,800円</td>
+            <td>￥11,300円</td>
+            <td>￥129,800円</td>
+            <td>￥10,800円</td>
+          </tr>
+          <tr>
+            <th class="fixed01" style="background-color: #fff;">VIO</th>
+            <td>20分</td>
+            <td>￥4,990円</td>
+            <td>￥9,980円</td>
+            <td>￥56,800円</td>
+            <td>￥9,400円</td>
+            <td>￥107,800円</td>
+            <td>￥8,900円</td>
+          </tr>
+          <tr>
+            <th class="fixed01">お顔</th>
+            <td>20分</td>
             <td>￥4,490円</td>
             <td>￥8,980円</td>
-            <td>￥44,800円</td>
-            <td>￥7,467円</td>
-            <td>￥84,800円</td>
-            <td>￥7,067円</td>
+            <td>￥50,800円</td>
+            <td>￥8,400</td>
+            <td>￥96,800円</td>
+            <td>￥8,000円</td>
           </tr>
           <tr>
-            <th class="fixed01">両腕<br>（ひじ・手の指・甲）</th>
+            <th class="fixed01" style="background-color: #fff;">うなじ・首・背中(上部)</th>
             <td>20分</td>
-            <td>￥2,490円</td>
-            <td>￥4,980円</td>
-            <td>￥24,800円</td>
-            <td>￥4,133円</td>
+            <td>￥3,990円</td>
+            <td>￥7,980円</td>
             <td>￥44,800円</td>
-            <td>￥3,733円</td>
+            <td>￥7,400円</td>
+            <td>￥85,800円</td>
+            <td>￥7,100円</td>
           </tr>
           <tr>
-            <th class="fixed01">両脚<br>（ひざ・足指・甲）</th>
-            <td>30分</td>
+            <th class="fixed01">両腕<br>(ひじ・手の指・甲)</th>
+            <td>15分</td>
             <td>￥2,740円</td>
             <td>￥5,480円</td>
-            <td>￥27,800円</td>
-            <td>￥4,633円</td>
-            <td>￥49,800円</td>
-            <td>￥4,150円</td>
+            <td>￥30,800円</td>
+            <td>￥5,100円</td>
+            <td>￥58,800円</td>
+            <td>￥4,900円</td>
           </tr>
+          <tr>
+            <th class="fixed01" style="background-color: #fff;">両足<br>(ひざ・足指・甲)</th>
+            <td>20分</td>
+            <td>￥2,990円</td>
+            <td>￥5,980円</td>
+            <td>￥33,800円</td>
+            <td>￥5,600円</td>
+            <td>￥63,800円</td>
+            <td>￥5,300円</td>
+          </tr>
+          <tr>
             <th class="fixed01">肩ワキ</th>
-            <td>15分</td>
-            <td>￥1,490円</td>
-            <td>￥2,980円</td>
-            <td>￥14,800円</td>
-            <td>￥2,467円</td>
-            <td>￥24,800円</td>
-            <td>￥2,067円</td>
+            <td>10分</td>
+            <td>￥1,990円</td>
+            <td>￥3,980円</td>
+            <td>￥22,800円</td>
+            <td>￥3,800円</td>
+            <td>￥42,800円</td>
+            <td>￥3,500円</td>
           </tr>
         </table>
         </div>
