@@ -59,8 +59,8 @@ body {
 }
 
 .nav-menu-width1 {
-  width: 100%;
-  margin: 50px auto;
+  width: 50%;
+  margin: 50px 0px 50px 50%;
   padding-left: 10px;
 }
 .nav-text {
@@ -93,20 +93,30 @@ body {
   top:10px;
   right: 10px;
   cursor: pointer;
-  width: 50px;
-  height:50px;
+  width: 80px;
+  height:80px;
 }
-  
+.openbtn-title{
+  position:fixed;
+  z-index: 1000;/*ボタンを最前面に*/
+  top:69px;
+  right: 10px;
+  cursor: pointer;
+  width: 80px;
+  height:20px;
+  text-align: center;
+  font-weight: 700;
+}  
 /*×に変化*/  
 .openbtn1 span{
   display: inline-block;
   transition: all .4s;
   position: absolute;
   left: 14px;
-  height: 3px;
+  height: 4px;
   border-radius: 2px;
   background-color: #666;
-  width: 45%;
+  width: 65%;
 }
 
 .openbtn1 span:nth-of-type(1) {
@@ -114,18 +124,18 @@ body {
 }
 
 .openbtn1 span:nth-of-type(2) {
-  top:23px;
+  top:35px;
 }
 
 .openbtn1 span:nth-of-type(3) {
-  top:31px;
+  top:55px;
 }
 
 .openbtn1.active span:nth-of-type(1) {
-  top: 18px;
-  left: 18px;
+  top: 31px;
+  left: 8px;
   transform: translateY(6px) rotate(-45deg);
-  width: 30%;
+  width: 80%;
 }
 
 .openbtn1.active span:nth-of-type(2) {
@@ -133,10 +143,10 @@ body {
 }
 
 .openbtn1.active span:nth-of-type(3){
-  top: 30px;
-  left: 18px;
+  top: 43px;
+  left: 10px;
   transform: translateY(-6px) rotate(45deg);
-  width: 30%;
+  width: 80%;
 }
 
 .sab-visual {
@@ -874,7 +884,10 @@ footer {
 .footer-top p br {
   display: none;
 }
-  
+.nav-menu-width1 {
+  width: 100%;
+  margin: 50px auto;
+}  
 }  
 @media screen and (max-width: 767px) {
 
@@ -1081,5 +1094,12 @@ td {
 }
 .campaign-title {
   font-size: 17px;
+}
+.nav-top p {
+  margin: 7px 80px 0 5px;
+  font-size: 12px;
+}
+.nav-top p br {
+  display: none;
 }
 }

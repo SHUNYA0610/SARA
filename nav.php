@@ -1,4 +1,4 @@
-  <div class="openbtn1"><span></span><span></span><span></span></div>
+  <div class="openbtn1"><span></span><span></span><span></span></div><p class="openbtn-title">MENU</p>
   <div id="g-nav">
     <div class="nav-menu-contents">
     <div class="nav-menu-width1">
