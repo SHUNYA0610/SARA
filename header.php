@@ -35,5 +35,8 @@
   <div class="logo_fadein">
     <p class="first-image1_fadein"><img class="first-image1" src="img/firstimage1.jpg" alt="ロゴ"></p>
     <p class="first-image2_fadein"><img class="first-image2" src="img/firstimage2.jpg" alt="ロゴ"></p>
-    <p class="first-logo"><img class="first-logo" src="img/logo.jpg" alt="ロゴ"></p>
+    <p class="first-image1_fadein2"><img class="first-image1-2" src="img/firstimage1sp.jpg" alt="ロゴ"></p>
+    <p class="first-image2_fadein2"><img class="first-image2-2" src="img/firstimage2sp.jpg" alt="ロゴ"></p>
+    <p class="first-logo"><img class="first-logo" src="img/startlogo.png" alt="ロゴ"></p>
+    <p class="first-logo2"><img class="first-logo2" src="img/startlogo.png" alt="ロゴ"></p>    
   </div>

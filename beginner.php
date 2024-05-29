@@ -21,13 +21,13 @@
    </div>   
    <div class="beginner-contents"> 
     <div class="youtube">  
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/09R8_2nJtjg?autoplay=1&playsinline=1&loop=1&playlist=09R8_2nJtjg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/EpG35cxpHTQ?autoplay=1&playsinline=1&loop=1&playlist=EpG35cxpHTQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
    </div>　
  </section> 
  <section>
   <div class="warning"> 
-  <h2 class="content2-title">お客様に安心してSARAをご利用していただくため、ご来院前に以下の項目に該当しないことをご確認することを推奨しております。（当クリニックにご来院の際も書面にてご確認させていただきます。）</h2>
+  <h2 class="content2-title">お客様に安心してSARAをご利用していただくため、ご来院前に以下の項目に該当しないことをご確認することを推奨しております。（当クリニックにご来院の際も書面にてご確認させていただきます。）また、未成年者の方は下記の[未成年者の方へ]に記載しています同意書を印刷・記入の上ご来院することを推奨しております。（当クリニックに親権者様とご来院の際にご記入していただくことも可能です。）</h2>
   <div>
   <div id="content2">
       <h2>[施術前　確認事項]</h2>
@@ -54,6 +54,10 @@
       <p><i class="fa-regular fa-square-check"></i> 不摂生（過度な寝不足・過度なダイエット・過度な飲酒　など）</p>
       <p><i class="fa-regular fa-square-check"></i> 海・プールなどの強い日焼けに繋がる行動（前後1週間）</p>
       <p><i class="fa-regular fa-square-check"></i> 脱毛後7日間に身体への摩擦や刺激が加わる（マッサージ・あかすり・毛抜き　など）</p>
-  </div>    
+      
+      <h2>[未成年者の方へ]</h2>
+      <p>未成年者の方は親権者の同意が必要です。下記の同意書をご記入の上、ご来院ください。（当クリニックに親権者様とご来院の際にご記入していただくことも可能です。）</p>
+      <a href="pdf/未成年同意書.pdf" target="_blank"><i class="fa-regular fa-clipboard"></i>同意書のダウンロードはこちら</a>
+  </div>
  </section>
 <?php include('footer.php'); ?> 

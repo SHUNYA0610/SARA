@@ -12,7 +12,7 @@ body {
 a,a:hover,a:visited{
     color: inherit;
 }
-  
+
 .logo_fadein{
 	background: #FFF;
 	position: fixed;
@@ -22,7 +22,24 @@ a,a:hover,a:visited{
 	width: 100%;
 	z-index: 9999;
 }
+.logo_fadein2{
+	background: #FFF;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 9999;
+}
 .first-logo {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+	z-index: 9999;
+}
+.first-logo2 {
 	position: fixed;
 	left: 50%;
 	top: 50%;
@@ -47,17 +64,55 @@ a,a:hover,a:visited{
 	display: none;
 	z-index: 9999;
 }
-
-.first-logo {
-  height: 250px;
+.first-image1_fadein2 {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+	z-index: 9999;
 }
 
+.first-image2_fadein2 {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+	z-index: 9999;
+}
+.first-logo {
+  height: 500px;
+}
+.first-logo2 {
+  height: 250px;
+}
 .first-image1 {
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
 }
 
 .first-image2 {
+  height: 100vh;    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.first-image1-2 {
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-image2-2 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #g-nav{
@@ -139,20 +194,8 @@ a,a:hover,a:visited{
   top:10px;
   right: 10px;
   cursor: pointer;
-  width: 70px;
-  height:70px;
-}
-  
-/*×に変化*/  
-.openbtn1 span{
-  display: inline-block;
-  transition: all .4s;
-  position: absolute;
-  left: 14px;
-  height: 4px;
-  border-radius: 2px;
-  background-color: #666;
-  width: 65%;
+  width: 80px;
+  height:80px;
 }
 .openbtn-title{
   position:fixed;
@@ -165,6 +208,17 @@ a,a:hover,a:visited{
   text-align: center;
   font-weight: 700;
 }  
+/*×に変化*/  
+.openbtn1 span{
+  display: inline-block;
+  transition: all .4s;
+  position: absolute;
+  left: 14px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #666;
+  width: 65%;
+}
 .openbtn1 span:nth-of-type(1) {
   top:15px; 
 }

@@ -1,25 +1,46 @@
-/* global $*/
-
-$(function() {
-	setTimeout(function(){
-		$('.first-image1_fadein').fadeIn(1500);
-	},500);
-	setTimeout(function(){
-		$('.first-image1_fadein').fadeOut(1300);
-	},2500);
-	setTimeout(function(){
-		$('.first-image2_fadein').fadeIn(1500);
-	},3000);
-	setTimeout(function(){
-		$('.first-image2_fadein').fadeOut(1300);
-	},5000);
-	setTimeout(function(){
-		$('.first-logo').fadeIn(2000);
-	},5500);
-	setTimeout(function(){
-		$('.logo_fadein').fadeOut(1500);
-	},9000);
-});
+if (window.matchMedia('(min-width: 767px)').matches) {
+  $(function() {
+  	setTimeout(function(){
+  		$('.first-image1_fadein').fadeIn(1500);
+  	},500);
+  	setTimeout(function(){
+  		$('.first-image1_fadein').fadeOut(1300);
+  	},2500);
+  	setTimeout(function(){
+  		$('.first-image2_fadein').fadeIn(1500);
+  	},3000);
+  	setTimeout(function(){
+  		$('.first-image2_fadein').fadeOut(1300);
+  	},5000);
+  	setTimeout(function(){
+  		$('.first-logo').fadeIn(2000);
+  	},5500);
+  	setTimeout(function(){
+  		$('.logo_fadein').fadeOut(1500);
+  	},9000);
+  });
+} else if (window.matchMedia('(max-width:768px)').matches) {
+  $(function() {
+  	setTimeout(function(){
+  		$('.first-image1_fadein2').fadeIn(1500);
+  	},500);
+  	setTimeout(function(){
+  		$('.first-image1_fadein2').fadeOut(1300);
+  	},2500);
+  	setTimeout(function(){
+  		$('.first-image2_fadein2').fadeIn(1500);
+  	},3000);
+  	setTimeout(function(){
+  		$('.first-image2_fadein2').fadeOut(1300);
+  	},5000);
+  	setTimeout(function(){
+  		$('.first-logo2').fadeIn(2000);
+  	},5500);
+  	setTimeout(function(){
+  		$('.logo_fadein').fadeOut(1500);
+  	},9000);
+  });
+}
 
 $(".openbtn1").click(function () {//ボタンがクリックされたら
   $(this).toggleClass('active');//ボタン自身に activeクラスを付与し

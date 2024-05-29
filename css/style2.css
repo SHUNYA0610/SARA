@@ -790,7 +790,6 @@ footer {
 .campaign {
   width: 100%;
   margin-top: 10px; 
-  padding-top: 20px;
   text-align: center;
 }
 .campaign-title {
@@ -814,6 +813,11 @@ footer {
 .campaign-img :hover{/* マウスオーバー時に色変更*/
     opacity: 0.7;
 }
+.campaign p {
+  font-size:20px;
+  color: red;
+}
+
 .price {
   width: 100%;
   text-align: center;
@@ -1101,5 +1105,8 @@ td {
 }
 .nav-top p br {
   display: none;
+}
+.campaign p {
+  font-size:13px;
 }
 }
