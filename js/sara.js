@@ -1,3 +1,5 @@
+/* global $*/
+
 if (window.matchMedia('(min-width: 767px)').matches) {
   $(function() {
   	setTimeout(function(){
@@ -54,8 +56,8 @@ $("#g-nav a").click(function () {//ナビゲーションのリンクがクリッ
 
 $('.campaign-slider').slick({
     autoplay: true,       //自動再生
-    autoplaySpeed: 3500,  //自動再生のスピード
-    speed: 1500,           //スライドするスピード
+    autoplaySpeed: 2000,  //自動再生のスピード
+    speed: 800,           //スライドするスピード
     dots: true,           //スライド下のドット
     arrows: true,         //左右の矢印
     infinite: true,       //永久にループさせる
@@ -197,7 +199,15 @@ function switchByWidth(){
         });
     }
 }
-
+  window.addEventListener('DOMContentLoaded', function () {
+    new ScrollHint('.table-scroll', {
+      scrollHintIconAppendClass: 'scroll-hint-icon-white', 
+      suggestiveShadow: true,
+      i18n: {
+        scrollable: "スクロールできます"
+      }
+    });
+  });
 //ロードとリサイズの両方で同じ処理を付与する
 window.onload = switchByWidth;
 window.onresize = switchByWidth;

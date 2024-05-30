@@ -3,6 +3,7 @@
   <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
+      <meta name="thumbnail" content="http://sweetroom-beauty.com/public_html/img/thumbnail.png">      
       <link rel="stylesheet" type="text/css" media="screen and (min-width: 1250px)" href="reset.css" >  
       <!--------------------アイコン-------------------------------------------------->
       <script src="https://kit.fontawesome.com/45dbcd7273.js" crossorigin="anonymous"></script>
@@ -31,6 +32,6 @@
       <meta property="og:title" content="メニュー｜美肌 脱毛 専門クリニックSARA">
       <meta property="og:description" content="脱毛の新技術【美肌脱毛】肌再生(美肌&美白)へ導きながら、同時に脱毛ができる特殊テクニック☆忙しい方でも時短で綺麗になれると話題◎7歳から施術可能なので敏感肌の方でも安心♪【美肌脱毛　専門クリニックSARA】JR小泉駅前徒歩30秒と好立地">
       <meta property="og:site_name" content="美肌 脱毛 専門クリニックSARA">
-      <meta property="og:image" content="">
+      <meta property="og:image" content="http://sweetroom-beauty.com/public_html/img/sns-thumbnail.png">
   </head>
 <body>

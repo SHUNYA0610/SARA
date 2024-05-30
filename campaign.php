@@ -13,21 +13,18 @@
     </ul>  
   </div>
   <section class="campaign">
-   <h2 class="campaign-title">レディース脱毛 祝オープン価格</h2>
+   <h2 class="campaign-title">レディース脱毛対象</h2>
     <div class="campaign-img">
-　　  <a href="./img/campaign-woman.png" target="_blank"><img src="./img/campaign-woman.png"></a>
+　　  <a href="campaign-woman.php" target="_blank"><img src="./img/campaignsliderimg01.jpg"　alt="レディース脱毛格安"></a>
     </div>
-   <p>※カウンセリング時に「SARAキャンペーン利用します」とお伝え頂けますとキャンペーン価格へと変更となります。</p>    
-   <h2 class="campaign-title">メンズ脱毛 祝オープン価格</h2>
+   <h2 class="campaign-title">メンズ脱毛対象</h2>
     <div class="campaign-img">
-　　　<a href="./img/campaign-mens.png" target="_blank"><img src="./img/campaign-mens.png"></a>
+　　　<a href="campaign-mens.php" target="_blank"><img src="./img/campaignsliderimg02.jpg"　alt="メンズ脱毛格安"></a>
     </div>
-   <p>※カウンセリング時に「SARAキャンペーン利用します」とお伝え頂けますとキャンペーン価格へと変更となります。</p>    
-   <h2 class="campaign-title">キッズ&ジュニア脱毛 祝オープン価格</h2>
+   <h2 class="campaign-title">キッズ&ジュニア脱毛対象</h2>
     <div class="campaign-img">
-　　　<a href="./img/campaign-kids.png" target="_blank"><img src="./img/campaign-kids.png"></a>
+　　　<a href="campaign-kids.php" target="_blank"><img src="./img/campaignsliderimg03.jpg"　alt="キッズ脱毛格安"></a>
     </div>
-   <p>※カウンセリング時に「SARAキャンペーン利用します」とお伝え頂けますとキャンペーン価格へと変更となります。</p>    
   </section>
   
 <?php include('footer.php'); ?>  

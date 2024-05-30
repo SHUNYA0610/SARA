@@ -133,7 +133,7 @@ body {
 
 .openbtn1.active span:nth-of-type(1) {
   top: 31px;
-  left: 8px;
+  left: 7px;
   transform: translateY(6px) rotate(-45deg);
   width: 80%;
 }
@@ -144,7 +144,7 @@ body {
 
 .openbtn1.active span:nth-of-type(3){
   top: 43px;
-  left: 10px;
+  left: 9px;
   transform: translateY(-6px) rotate(45deg);
   width: 80%;
 }
@@ -409,15 +409,6 @@ footer {
   justify-content: center;
   padding-top: 10px;
   margin-bottom: 20px;
-}
-
-.contact {
-  width: 100%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  background-color: #FFF;
 }
 .map-contents {
   margin: 0 auto;
@@ -758,6 +749,7 @@ footer {
   width: 70%;
   aspect-ratio:16/9;
   margin:10px auto;
+  margin-top: 19px;
 }
 .youtube iframe {
   width: 100%;
@@ -816,6 +808,7 @@ footer {
 .campaign p {
   font-size:20px;
   color: red;
+  padding-bottom: 10px;
 }
 
 .price {
@@ -878,7 +871,9 @@ footer {
 }
 
 @media screen and (max-width: 1250px) {
-
+.contact-contents {
+  width: 100%;
+}
 .menu-contents2 {
   width: 100%; 
 }
@@ -1045,7 +1040,11 @@ footer {
 }
 
 }
-
+@media screen and (max-width: 521px) {   
+    .nav-top p br {
+        display: none;
+    }
+}    
 @media screen and (max-width: 412px) { 
 .toggle_icon {
   right: 0.4rem;
