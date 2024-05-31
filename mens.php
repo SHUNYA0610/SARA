@@ -48,10 +48,7 @@
      <div class="menu-image"><img src="./img/mens.jpg"　alt="男性脱毛"></div>
    </div>
    <div>
-   <p class="menu-text">
-      Contrary to popular belief, Lorem Ipsum is not simply random
-      text. It has roots in a piece of classical Latin literature from 45
-      one of the more obscure Latin words, consectetur</p>
+   <p class="menu-text">圧倒的に刺激が少なく、毛がなくなる期間が短く、他の脱毛機器よりも安価で受けることができます。多くの医師が認める安心・安全重視の最先端脱毛機器を導入しております。</p>
    </div>
   </section>
   <section class="price">
