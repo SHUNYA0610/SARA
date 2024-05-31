@@ -1,6 +1,6 @@
 /* global $*/
 
-if (window.matchMedia('(min-width: 767px)').matches) {
+if (window.matchMedia('(min-width: 769px)').matches) {
   $(function() {
   	setTimeout(function(){
   		$('.first-image1_fadein').fadeIn(1500);
@@ -21,7 +21,7 @@ if (window.matchMedia('(min-width: 767px)').matches) {
   		$('.logo_fadein').fadeOut(1500);
   	},9000);
   });
-} else if (window.matchMedia('(max-width:768px)').matches) {
+} else if (window.matchMedia('(max-width:768.9px)').matches) {
   $(function() {
   	setTimeout(function(){
   		$('.first-image1_fadein2').fadeIn(1500);
@@ -59,7 +59,7 @@ $('.campaign-slider').slick({
     autoplaySpeed: 2000,  //自動再生のスピード
     speed: 800,           //スライドするスピード
     dots: true,           //スライド下のドット
-    arrows: true,         //左右の矢印
+    arrows: false,         //左右の矢印
     infinite: true,       //永久にループさせる
 });
 

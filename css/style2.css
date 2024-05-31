@@ -869,7 +869,14 @@ footer {
 .price-table tr:nth-of-type(even) td{
   background-color: #D085FD;
 }
-
+@media screen and (max-width: 1260px) {
+  .menu-contents2 {
+    width: 100%; 
+  }
+  .Menu2:nth-child(2) {
+    margin:0 0 0 250px;
+  }
+}  
 @media screen and (max-width: 1250px) {
 .contact-contents {
   width: 100%;
@@ -887,7 +894,21 @@ footer {
   width: 100%;
   margin: 50px auto;
 }  
-}  
+.Menu2:nth-child(2) {
+    margin:0 0 0 200px;
+}
+}
+@media screen and (max-width: 1050px) {
+  .Menu2:nth-child(2) {
+      margin: 0 0 0 50px;
+  }
+  .footer-top p {
+    font-size: 12px;
+  }
+  .contact-contents {
+  width: 100%;
+  }
+}
 @media screen and (max-width: 767px) {
 
 .contact-contents {
@@ -1049,12 +1070,6 @@ footer {
 .toggle_icon {
   right: 0.4rem;
 }
-
-.footer-top p {
-  margin: 17px 10px 0 10px;
-  font-size: 12px;
-  width: 250px;
-}
 .column a {
   font-size: 12.5px;
 }
@@ -1063,6 +1078,15 @@ footer {
 }
 .footer-menu-width1 {
     width: auto;
+}
+.footer-top p {
+  margin: 17px 10px 0 10px;
+  font-size: 12px;
+  width: 210px;
+}
+.nav-top p {
+  margin: 7px 80px 0 5px;
+  font-size: 12px;
 }
 .sab-visual {
   background-image: url(../img/sabmv2.png);
@@ -1107,5 +1131,13 @@ td {
 }
 .campaign p {
   font-size:13px;
+}
+}
+@media screen and (max-width: 350px) {
+.footer-top p {
+    margin: 17px 9px 0 10px;
+}
+.Menu2 {
+    width: 330px;
 }
 }

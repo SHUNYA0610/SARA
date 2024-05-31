@@ -17,14 +17,17 @@
     <div class="campaign-img">
 　　  <a href="campaign-woman.php" target="_blank"><img src="./img/campaignsliderimg01.jpg"　alt="レディース脱毛格安"></a>
     </div>
+　　<p>※バナーを押すとキャンペーン詳細ページに移ります。</p>
    <h2 class="campaign-title">メンズ脱毛対象</h2>
     <div class="campaign-img">
 　　　<a href="campaign-mens.php" target="_blank"><img src="./img/campaignsliderimg02.jpg"　alt="メンズ脱毛格安"></a>
     </div>
+　　<p>※バナーを押すとキャンペーン詳細ページに移ります。</p>    
    <h2 class="campaign-title">キッズ&ジュニア脱毛対象</h2>
     <div class="campaign-img">
-　　　<a href="campaign-kids.php" target="_blank"><img src="./img/campaignsliderimg03.jpg"　alt="キッズ脱毛格安"></a>
+　　　<a href="campaign-KidsandJunior.php" target="_blank"><img src="./img/campaignsliderimg03.jpg"　alt="キッズ脱毛格安"></a>
     </div>
+　　<p>※バナーを押すとキャンペーン詳細ページに移ります。</p>    
   </section>
   
 <?php include('footer.php'); ?>  

@@ -31,8 +31,6 @@
       <div><a href="campaign-woman.php"><img src="./img/campaignsliderimg01.jpg" alt="レディース脱毛"></a></div>
       <div><a href="campaign-mens.php"><img src="./img/campaignsliderimg02.jpg" alt="メンズ脱毛"></a></div>
       <div><a href="campaign-KidsandJunior.php"><img src="./img/campaignsliderimg03.jpg" alt="キッズ脱毛"></a></div>
-      <div><a href="campaign.php"><img src="./img/campaignsliderimg04.jpg"></a></div>
-      <div><a href="campaign.php"><img src="./img/campaignsliderimg05.jpg"></a></div>
     </div>
   </section>
   <section class="merit">
@@ -75,11 +73,7 @@
              <h2 class="merit-title">SARAの８つのこだわり</h2>
              <h3 class="merit-detail">豊富なお支払い方法</h3>
              <p class="merit-detail-text">
-               Contrary to popular belief, Lorem Ipsum is not simply random</br>
-               text. It has roots in a piece of classical Latin literature from 45</br>
-               BC, making it over 2000 years old. Richard McClintock, a Latin</br>
-               professor at Hampden-Sydney College in Virginia, looked up</br>
-               one of the more obscure Latin words, consectetur</p>
+               現金・クレジットカード(VISA・Mastercard・AMEX)・PAYPAYと色々なお支払い方法をご用意させて頂いております。当クリニックでは、都度払いのお客様多く、強引なコース契約などの勧誘はございませんのでご安心くださいませ。気持ちの良い空間を提供させて頂いております。</p>
          </div>
          <div class="merit-width2">
           <img id="merit-image" src="img/meritslider4.jpg" alt="クレジット">
@@ -112,11 +106,7 @@
              <h2 class="merit-title">SARAの８つのこだわり</h2>
              <h3 class="merit-detail">完全個室</h3>
              <p class="merit-detail-text">
-               Contrary to popular belief, Lorem Ipsum is not simply random</br>
-               text. It has roots in a piece of classical Latin literature from 45</br>
-               BC, making it over 2000 years old. Richard McClintock, a Latin</br>
-               professor at Hampden-Sydney College in Virginia, looked up</br>
-               one of the more obscure Latin words, consectetur</p>
+               安心の女性専用ルームご用意しております。鍵付きの完全プライベート空間にて施術を受けて頂くことができます。大切休日をごゆっくりお過ごしくださいませ。</p>
          </div>
          <div class="merit-width2">
           <img id="merit-image" src="img/meritslider7.jpg" alt="脱毛完全個室">
@@ -127,11 +117,7 @@
              <h2 class="merit-title">SARAの８つのこだわり</h2>
              <h3 class="merit-detail">広いキッズスペース管理</h3>
              <p class="merit-detail-text">
-               Contrary to popular belief, Lorem Ipsum is not simply random</br>
-               text. It has roots in a piece of classical Latin literature from 45</br>
-               BC, making it over 2000 years old. Richard McClintock, a Latin</br>
-               professor at Hampden-Sydney College in Virginia, looked up</br>
-               one of the more obscure Latin words, consectetur</p>
+               美肌ケアや脱毛をしたいけど子育て中でどうしても時間がとりにくいというお悩みが解決されます♪広いキッズスペースを完備しており、キッズスペースには、たくさんのおもちゃ・ゲーム・DVD・お菓子やドリンクなど大切なお子様が飽きない工夫が盛りだくさん◎お気軽にご利用くださいませ。</p>
          </div>
          <div class="merit-width2">
           <img id="merit-image" src="img/meritslider8.jpg" alt="キッズスペース">
@@ -147,10 +133,7 @@
           <a href="woman.php"></a>
           <img id="menu-image" src="img/menuimg1.jpg" alt="レディース脱毛">
           <h3 class="menu-heading">レディース脱毛</h3>
-          <p class="menu-text">Contrary to popular belief, Lorem Ipsum is not simply random text.
-          It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
-          old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up
-          </p>
+          <p class="menu-text">脱毛デビューの方必見。「脱毛をしたが痛すぎて続けることができませんでした」・「何度も通っていたのに脱毛の効果が全然実感できなかった」などのお悩みを抱えているお客様多く来院しております。「今までで一番脱毛効果を感じています」というお声をたくさん頂けていることに感謝しております。</p>
         </div>
         <div class="Menu">
           <a href="mens.php"></a>

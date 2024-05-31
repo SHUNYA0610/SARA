@@ -16,9 +16,12 @@
   <section class="campaign">
    <h2 class="campaign-title">キッズ&ジュニア脱毛 祝オープン価格</h2>
     <div class="campaign-img">
-　　　<a href="./img/campaign-kids.png" target="_blank"><img src="./img/campaign-kids.png"　alt="キッズ脱毛格安"></a>
+　　　<a href="./img/campaign-kidsandjunior.png" target="_blank"><img src="./img/campaign-kidsandjunior.png"　alt="キッズ脱毛格安"></a>
     </div>
    <p>※カウンセリング時に「SARAキャンペーン利用します」とお伝え頂けますとキャンペーン価格へと変更となります。</p>    
+    <div class="campaign-img">
+　　　<a href="./img/parts-kidsandjunior.png" target="_blank"><img src="./img/parts-kidsandjunior.png"　alt="キッズ脱毛格安"></a>
+    </div>   
   </section>
   
 <?php include('footer.php'); ?>  

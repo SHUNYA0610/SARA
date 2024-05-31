@@ -744,18 +744,23 @@ footer {
   width: 15em; /* 線の長さ */
   margin-left: 10px;
 }
+@media screen and (max-width: 1260px) {
+  .menu-contents {
+    width: 100%; 
+  }
+  .Menu:nth-child(2) {
+    margin:0 0 0 250px;
+  }  
+}  
 @media screen and (max-width: 1250px) {
 .concept-image-contents img {
-    width: 270px;
+    width: 250px;
 }
 .merit-slider .prev-arrow {
     left: 29.8%;
 }
 .merit-slider .next-arrow {
     left: 36.4%;
-}
-.menu-contents {
-  width: 100%; 
 }
 .Menu:nth-child(3) {
   margin: 40px 0;
@@ -786,12 +791,16 @@ footer {
   font-size: 17px;
 }
 .Menu:nth-child(2) {
-    margin:0 0 0 20px;
+  margin:0 0 0 200px;
 }
-}  
+.concept-image-contents {
+  width: 95%;
+}
+}
+  
 @media screen and (max-width: 1050px) {
   .Menu:nth-child(2) {
-    margin: 0 0 0 70px;
+    margin: 0 0 0 50px;
   }
   .footer-top p {
     font-size: 12px;
@@ -934,7 +943,7 @@ footer {
         display: none;
     }
 }    
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 432px) {
 .main-visual {
   background-image: url(../img/mv2.png);
 }
@@ -973,5 +982,19 @@ footer {
 }
 .merit-slider .slick-arrow {
   top: 92%;
+}
+}
+@media screen and (max-width: 350px) {
+.merit-slider .prev-arrow {
+  left: 65%;
+}  
+.merit-slider .next-arrow {
+  left: 83%;
+}
+.footer-top p {
+    margin: 17px 9px 0 10px;
+}
+.Menu {
+    width: 330px;
 }
 }

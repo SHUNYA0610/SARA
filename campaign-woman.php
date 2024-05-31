@@ -18,6 +18,10 @@
     <div class="campaign-img">
 　　  <a href="./img/campaign-woman.png" target="_blank"><img src="./img/campaign-woman.png"　alt="レディース脱毛格安"></a>
     </div>
+   <p>※カウンセリング時に「SARAキャンペーン利用します」とお伝え頂けますとキャンペーン価格へと変更となります。</p>    
+    <div class="campaign-img">
+　　　<a href="./img/parts-woman.png" target="_blank"><img src="./img/parts-woman.png"　alt="キッズ脱毛格安"></a>
+    </div>     
   </section>
   
 <?php include('footer.php'); ?>  
