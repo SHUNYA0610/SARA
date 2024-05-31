@@ -1067,7 +1067,7 @@ footer {
         display: none;
     }
 }    
-@media screen and (max-width: 412px) { 
+@media screen and (max-width: 432px) { 
 .toggle_icon {
   right: 0.4rem;
 }
