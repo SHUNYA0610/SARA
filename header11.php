@@ -25,7 +25,7 @@
       <link rel="stylesheet" href="./css/swiper-bundle.min.css">
       <script src="js/swiper-bundle.min.js"></script>
       <title>ポリシー｜美肌 脱毛 専門クリニックSARA</title>
-      <link rel="icon" href="./img/logo.jpg">
+      <link rel="icon" href="logo.ico">
       <meta name=”description” content="脱毛の新技術【美肌脱毛】肌再生(美肌&美白)へ導きながら、同時に脱毛ができる特殊テクニック☆忙しい方でも時短で綺麗になれると話題◎7歳から施術可能なので敏感肌の方でも安心♪【美肌脱毛　専門クリニックSARA】JR小泉駅前徒歩30秒と好立地">
       <meta property="og:url" content="http://sweetroom-beauty.com/policy/">
       <meta property="og:type" content="article">
