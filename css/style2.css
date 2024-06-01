@@ -1080,6 +1080,9 @@ footer {
 .footer-menu-width1 {
     width: auto;
 }
+.nav-menu-width1 {
+    width: auto;
+}
 .footer-top p {
   margin: 17px 10px 0 10px;
   font-size: 12px;
@@ -1132,6 +1135,9 @@ td {
 }
 .campaign p {
   font-size:13px;
+}
+.nav-column a {
+  font-size: 12.5px;
 }
 }
 @media screen and (max-width: 350px) {
