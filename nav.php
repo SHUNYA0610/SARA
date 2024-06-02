@@ -14,7 +14,7 @@
       <h3>CONTENTS </h3>
       </div>
         <ul class="nav-column">
-         <li><a href="index.php">トップ</a></li>
+         <li><a href="top.php">トップ</a></li>
          <li><a href="info.php">クリニック情報</a></li>
          <li><a href="https://beauty.hotpepper.jp/kr/slnH000704875/">ご予約</a></li>
          <li><a href="latest_information.php">最新情報</a></li>

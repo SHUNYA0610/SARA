@@ -8,7 +8,7 @@
   </section>
   <div class="sabnav">
     <ul class="column2">
-     <li><a href="index.php"><i class="fa-solid fa-house" style="color: #D085FD;"></i>トップ</a></li>
+     <li><a href="top.php"><i class="fa-solid fa-house" style="color: #D085FD;"></i>トップ</a></li>
      <li><a href="campaign.php"><i class="fa-solid fa-angle-up fa-rotate-90" style="color: #D085FD;"></i>キャンペーン</a></li>
     </ul>  
   </div>
