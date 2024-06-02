@@ -20,7 +20,7 @@
     <table>
       <tr>
         <th>クリニック名</th>
-        <td>美容 脱毛 専門クリニックSARA</td>
+        <td>美肌 脱毛 専門クリニックSARA</td>
       </tr>
       <tr>
         <th>住所</th>

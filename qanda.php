@@ -24,7 +24,7 @@
                 <div class="toggle_icon"></div>
               </div>
               <div class="qa_a">
-                  <p class="a_txt">はい。当サロンは完全予約制となっております。<br>WEB予約でご予約をお願い致します。<br>【WEB予約】HOT PEPPER Beauty</p>
+                  <p class="a_txt">はい。当クリニックは完全予約制となっております。<br>WEB予約でご予約をお願い致します。<br>【WEB予約】HOT PEPPER Beauty</p>
               </div>
           </div>
           <div class="qa_box">
