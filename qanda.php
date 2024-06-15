@@ -99,14 +99,6 @@
           </div>
           <div class="qa_box">
               <div class="qa_q">
-                <p class="q_txt">なぜ毛抜きは使っちゃダメなのですか？</p>
-                <div class="toggle_icon"></div>
-              </div>
-              <div class="qa_a">
-                <p class="a_txt">毛抜きを使ってしまうと、肌にダメージを与えてしまうことで、毛嚢炎や鳥肌、埋もれ毛、色素沈着の原因になります。また、毛抜きを使用することで、脱毛の際に反応させたい毛乳頭に毛がついていない状態になり、脱毛の効果に影響がでてしまいます。今後は毛抜きではなく、肌に刺激が少ない電気シェーバーでの処理がおすすめです。</p></div>
-          </div>
-          <div class="qa_box">
-              <div class="qa_q">
                 <p class="q_txt">施術後の飲酒（運動）はなぜダメなのですか？</p>
                 <div class="toggle_icon"></div>
               </div>

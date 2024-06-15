@@ -1,7 +1,6 @@
 <?php include('header6.php'); ?>
 <main>
   <section class="sab-visual">
-  <div class="openbtn1"><span></span><span></span><span></span></div>
 <?php include('nav.php'); ?>
     <div class="sab-visual-content">
       <h2 class="sab-visual-heading">Menu</h2>
